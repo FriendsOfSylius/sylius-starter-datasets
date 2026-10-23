@@ -1,0 +1,50 @@
+# Supermarket dataset: nine everyday groceries, one per aisle (see dataset.yaml).
+# Each image is a path relative to the dataset directory, so the import copies it instead of downloading it.
+mode: ai
+name: Supermarket
+products:
+    -   title: 'Pommes de terre Bio'
+        collection_name: 'Fruits et légumes frais de saison'
+        price_eur: 3.0
+        image: media/pommes_de_terre_bio.webp
+        description: 'Organic potatoes perfect for any meal, grown in the best conditions.'
+    -   title: 'Fromage de chèvre'
+        collection_name: 'Crèmerie et fromages'
+        price_eur: 5.49
+        image: media/fromage_de_chevre.webp
+        description: 'Fresh and creamy goat cheese, perfect for a snack or a salad.'
+    -   title: 'Poulet sous vide'
+        collection_name: 'Boucherie et volaille sous vide'
+        price_eur: 3.99
+        image: media/poulet_sous_vide.webp
+        description: 'Fresh chicken breast, pre-cooked and ready to be grilled or baked.'
+    -   title: 'Baguette fraîche'
+        collection_name: Boulangerie
+        price_eur: 3.0
+        image: media/baguette_fraiche.webp
+        description: 'A classic French baguette, perfect for breakfast or lunch.'
+    -   title: 'Pâtes aux herbes'
+        collection_name: 'Épicerie salée'
+        price_eur: 3.0
+        image: media/pates_aux_herbes.webp
+        description: 'Herb-infused pasta, perfect for a quick and tasty dinner.'
+    -   title: 'Biscuits au chocolat'
+        collection_name: 'Épicerie sucrée'
+        price_eur: 3.0
+        image: media/biscuits_au_chocolat.webp
+        description: 'Delicious chocolate biscuits, perfect for a snack or a dessert.'
+    -   title: 'Eau minérale'
+        collection_name: Boissons
+        price_eur: 3.0
+        image: media/eau_minerale.webp
+        description: 'Refreshing mineral water, perfect for staying hydrated.'
+    -   title: 'Pâtes à pizza'
+        collection_name: Surgelés
+        price_eur: 3.99
+        image: media/pates_a_pizza.webp
+        description: 'Homemade pizza dough, perfect for a homemade pizza night.'
+    -   title: 'Produit nettoyant ménager'
+        collection_name: 'Produits d’hygiène et d’entretien'
+        price_eur: 3.0
+        image: media/produit_nettoyant_menager.webp
+        description: 'Powerful cleaning product for all your household needs.'

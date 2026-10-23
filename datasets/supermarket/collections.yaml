@@ -1,0 +1,11 @@
+# Supermarket dataset: the aisles the groceries are sorted by (see products.yaml).
+collections:
+    -   name: 'Fruits et légumes frais de saison'
+    -   name: 'Crèmerie et fromages'
+    -   name: 'Boucherie et volaille sous vide'
+    -   name: Boulangerie
+    -   name: 'Épicerie salée'
+    -   name: 'Épicerie sucrée'
+    -   name: Boissons
+    -   name: Surgelés
+    -   name: 'Produits d’hygiène et d’entretien'
