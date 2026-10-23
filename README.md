@@ -25,10 +25,10 @@ castor sylius:import:dataset:list
 castor sylius:import:shop:create cellar
 ```
 
-Read the [documentation](https://github.com/sylius-starter/sylius-starter/blob/main/docs/import/datasets.md) for usage.
+Read the [documentation](https://github.com/FriendsOfSylius/sylius-starter/blob/main/docs/import/datasets.md) for usage.
 
 ## Contributing
 
 This repository is a **read-only split** of the
-[sylius-starter/sylius-starter](https://github.com/sylius-starter/sylius-starter) monorepo.
+[FriendsOfSylius/sylius-starter](https://github.com/FriendsOfSylius/sylius-starter) monorepo.
 Please open issues and pull requests there.
