@@ -1,0 +1,40 @@
+{
+    "name": "sylius-starter/datasets",
+    "description": "Ready-made demo datasets (products, collections and their images) for the Sylius Starter import package",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "sylius",
+        "castor",
+        "starter"
+    ],
+    "homepage": "https://github.com/sylius-starter/sylius-starter",
+    "authors": [
+        {
+            "name": "Loïc Frémont",
+            "email": "lfremont@jolicode.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.3",
+        "sylius-starter/core": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "SyliusStarter\\Datasets\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SyliusStarter\\Datasets\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1-dev"
+        }
+    }
+}
