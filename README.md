@@ -8,6 +8,7 @@ demo shop is created from it without any AI call or download.
 |----------------|---------------------------------------------------------------|-----------------|
 | `cellar`       | Seventeen wines from fictional estates, in seven regions      | Cellar          |
 | `groove`       | Sixteen fictional vinyl records, in six genres                | Groove          |
+| `outdoor`      | Eighteen pieces of hiking, climbing and camping gear          | Summit          |
 | `retro-gaming` | Sixteen retro consoles, games and accessories, on six shelves | Retro Gaming    |
 | `roastery`     | Sixteen specialty coffees and brewing tools, on six shelves   | Roastery        |
 | `supermarket`  | Nine everyday groceries, one per supermarket aisle            | Drive           |
