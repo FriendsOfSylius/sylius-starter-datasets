@@ -1,0 +1,8 @@
+# Tech dataset: the departments the devices are sorted by (see products.yaml).
+collections:
+    -   name: Laptops
+    -   name: Smartphones
+    -   name: Audio
+    -   name: Wearables
+    -   name: Smart Home
+    -   name: Accessories

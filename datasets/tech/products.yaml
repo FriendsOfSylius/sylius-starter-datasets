@@ -1,0 +1,85 @@
+# Tech dataset: sixteen devices from fictional brands (see dataset.yaml).
+# Each image is a path relative to the dataset directory, so the import copies it instead of downloading it.
+mode: ai
+name: Tech
+products:
+    -   title: 'Kestrel Air 14 — Ultralight Laptop'
+        collection_name: Laptops
+        price_eur: 1299
+        image: media/kestrel_air_14.webp
+        description: 'A 1.1 kg aluminium laptop with a 14-inch 2.8K display at 120 Hz, a 12-core processor, 16 GB of memory and a 1 TB SSD. Up to 18 hours of battery, two USB-C ports with charging, Wi-Fi 7. 65 W USB-C charger in the box. 2-year warranty.'
+    -   title: 'Kestrel Pro 16 — Creator Laptop'
+        collection_name: Laptops
+        price_eur: 2199
+        image: media/kestrel_pro_16.webp
+        description: 'Built for photo and video work: a 16-inch mini-LED display calibrated for 100 % DCI-P3, a 16-core processor, a dedicated 8 GB graphics card, 32 GB of memory and a 2 TB SSD. HDMI 2.1, SD card reader, three USB-C ports. 140 W charger included. 2-year warranty.'
+    -   title: 'Norda Book 13 — Everyday Laptop'
+        collection_name: Laptops
+        price_eur: 749
+        image: media/norda_book_13.webp
+        description: 'A light 13-inch laptop for school and the office: full HD anti-glare display, 8-core processor, 16 GB of memory and a 512 GB SSD. Backlit keyboard, 1080p webcam with privacy shutter, 12 hours of battery. 2-year warranty.'
+    -   title: 'Aerin One — 6.1" Smartphone'
+        collection_name: Smartphones
+        price_eur: 799
+        image: media/aerin_one.webp
+        description: 'A compact smartphone with a 6.1-inch OLED display at 120 Hz, a 50 MP main camera and a 12 MP ultra-wide, 256 GB of storage and 5G. IP68 water resistance, 45 W fast charging, five years of system updates. USB-C cable in the box. Unlocked, dual SIM.'
+    -   title: 'Aerin One Max — 6.8" Smartphone'
+        collection_name: Smartphones
+        price_eur: 1099
+        image: media/aerin_one_max.webp
+        description: 'The flagship of the range: a 6.8-inch OLED display, a titanium frame and a triple camera (50 MP main, 48 MP ultra-wide, 5x periscope zoom) that films in 4K at 120 fps. 512 GB of storage, 5,000 mAh battery, wireless charging. Unlocked, dual SIM.'
+    -   title: 'Halden Rugged X5 — Outdoor Smartphone'
+        collection_name: Smartphones
+        price_eur: 449
+        image: media/halden_rugged_x5.webp
+        description: 'A smartphone built for building sites and trails: IP69K and drop-tested from 1.8 m, a 6.5-inch screen readable in full sun and usable with gloves, and an 8,000 mAh battery that lasts three days. Programmable orange key, 128 GB of storage, 5G.'
+    -   title: 'Sonari H1 — Noise-Cancelling Headphones'
+        collection_name: Audio
+        price_eur: 349
+        image: media/sonari_h1.webp
+        description: 'Over-ear wireless headphones with adaptive noise cancelling, eight microphones for clear calls and 40 mm drivers tuned for a balanced sound. 40 hours of battery, 5 minutes of charge for 4 hours of play, multipoint Bluetooth 5.4. Carry case, USB-C and 3.5 mm cables included.'
+    -   title: 'Sonari Buds 2 — True Wireless Earbuds'
+        collection_name: Audio
+        price_eur: 179
+        image: media/sonari_buds_2.webp
+        description: 'In-ear wireless earbuds with active noise cancelling, transparency mode and spatial audio. 8 hours of play, 30 more with the wireless charging case. IPX5 sweat resistance, four sizes of silicone tips in the box.'
+    -   title: 'Sonari Cube — Portable Speaker'
+        collection_name: Audio
+        price_eur: 129
+        image: media/sonari_cube.webp
+        description: 'A palm-sized Bluetooth speaker with a 360° sound and a passive radiator for deep bass. Waterproof and dustproof (IP67), it floats and survives a drop. 16 hours of battery, pairs with a second Cube for stereo. Lanyard and USB-C cable included.'
+    -   title: 'Pulse Watch 3 — Smartwatch'
+        collection_name: Wearables
+        price_eur: 299
+        image: media/pulse_watch_3.webp
+        description: 'A 44 mm aluminium smartwatch with an always-on AMOLED display, heart rate, blood oxygen and sleep tracking, GPS and more than 100 sport modes. Water resistant to 50 m, 7 days of battery, contactless payment. Works with Android and iOS.'
+    -   title: 'Pulse Band — Fitness Tracker'
+        collection_name: Wearables
+        price_eur: 89
+        image: media/pulse_band.webp
+        description: 'A slim tracker for every day: steps, heart rate, sleep stages and stress, with call and message notifications on its curved display. 14 days of battery, water resistant to 50 m, magnetic charger in the box.'
+    -   title: 'Lumio Hub — Smart Home Controller'
+        collection_name: Smart Home
+        price_eur: 149
+        image: media/lumio_hub.webp
+        description: 'The centre of the smart home: a hub that speaks Matter, Thread, Zigbee and Wi-Fi, so lights, plugs, sensors and locks of every brand work together. Touchscreen for scenes, automations run locally even without internet. Power supply and Ethernet cable included.'
+    -   title: 'Lumio Cam 2K — Indoor Camera'
+        collection_name: Smart Home
+        price_eur: 79
+        image: media/lumio_cam_2k.webp
+        description: 'An indoor security camera filming in 2K with night vision, two-way audio and person detection. Recordings are encrypted and stored on a microSD card in the camera, with no subscription. Magnetic base, 3 m USB cable included.'
+    -   title: 'Lumio Smart Bulbs — Pack of 4'
+        collection_name: Smart Home
+        price_eur: 59
+        image: media/lumio_smart_bulbs.webp
+        description: 'Four E27 LED bulbs with 16 million colours and every shade of white, from warm 2,200 K to daylight 6,500 K. 1,100 lumens each, dimmable, controlled by voice, by app or by the Lumio Hub. Matter compatible, 25,000-hour lifespan.'
+    -   title: 'Voltix 140 W GaN Charger'
+        collection_name: Accessories
+        price_eur: 89
+        image: media/voltix_gan_charger.webp
+        description: 'One charger for a laptop, a phone and earbuds at once: three USB-C ports and one USB-A, 140 W in total, in a block half the size of a laptop brick. Folding prongs, smart power sharing, 2 m braided USB-C cable included.'
+    -   title: 'Voltix Keys 75 — Mechanical Keyboard'
+        collection_name: Accessories
+        price_eur: 159
+        image: media/voltix_keys_75.webp
+        description: 'A compact 75 % mechanical keyboard in a CNC-machined aluminium case, with hot-swappable linear switches, PBT keycaps and an orange accent key. Wireless (Bluetooth and 2.4 GHz) or wired, 200 hours of battery. Mac and Windows keycaps included.'

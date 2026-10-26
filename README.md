@@ -10,6 +10,7 @@ demo shop is created from it without any AI call or download.
 | `groove`       | Sixteen fictional vinyl records, in six genres                | Groove          |
 | `retro-gaming` | Sixteen retro consoles, games and accessories, on six shelves | Retro Gaming    |
 | `supermarket`  | Nine everyday groceries, one per supermarket aisle            | Drive           |
+| `tech`         | Sixteen devices from fictional brands, in six departments     | Tech            |
 | `video-games`  | Sixteen fictional video games, in six genres                  | Arena           |
 
 ## Installation
