@@ -1,0 +1,8 @@
+# Teahouse dataset: the shelves the teas and the teaware are sorted by (see products.yaml).
+collections:
+    -   name: Green Teas
+    -   name: White & Yellow
+    -   name: Oolong
+    -   name: Black Teas
+    -   name: Pu-erh
+    -   name: Teaware

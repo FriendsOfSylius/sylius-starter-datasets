@@ -1,0 +1,85 @@
+# Teahouse dataset: sixteen teas and pieces of teaware from a fictional tea merchant (see dataset.yaml).
+# Each image is a path relative to the dataset directory, so the import copies it instead of downloading it.
+mode: ai
+name: Teahouse
+products:
+    -   title: 'Shizuoka Sencha — Spring Harvest, 100 g'
+        collection_name: Green Teas
+        price_eur: 16.5
+        image: media/shizuoka_sencha_spring_harvest.webp
+        description: 'First picking of the year from a family garden on the slopes above the Abe river, steamed and rolled into fine dark needles. Fresh grass, sea air and a sweet umami finish. Unoxidised. Steep 3 g in 200 ml at 70 °C for 1 min 30; three infusions.'
+    -   title: 'Uji Ceremonial Matcha, 30 g'
+        collection_name: Green Teas
+        price_eur: 24
+        image: media/uji_ceremonial_matcha.webp
+        description: 'Shade-grown tencha from Uji, stone-ground into a vivid jade powder. Creamy, sweet and deeply vegetal, with no bitterness. Whisk 2 g with 70 ml of water at 75 °C for a usucha, or with milk for a latte. Keep it in the fridge once opened.'
+    -   title: 'Long Jing Dragon Well — Pre-Qingming, 50 g'
+        collection_name: Green Teas
+        price_eur: 19.9
+        image: media/long_jing_dragon_well.webp
+        description: 'Flat, jade leaves pan-fired by hand near West Lake, Hangzhou, picked before the Qingming festival. Toasted chestnut, fresh peas and a buttery texture. Steep 3 g in 200 ml at 80 °C for 2 min, in a glass to watch the leaves dance.'
+    -   title: 'Fujian Silver Needle — Bai Hao Yin Zhen, 50 g'
+        collection_name: White & Yellow
+        price_eur: 22
+        image: media/fujian_silver_needle.webp
+        description: 'Only the downy buds, plucked in Fuding over a few spring days and simply withered in the sun. Honey, hay and white flowers in a pale golden cup. Lightly oxidised. Steep 3 g in 200 ml at 80 °C for 4 min; four infusions and more.'
+    -   title: 'Junshan Yinzhen — Yellow Tea, 25 g'
+        collection_name: White & Yellow
+        price_eur: 26
+        image: media/junshan_yinzhen_yellow_tea.webp
+        description: 'A rare yellow tea from Junshan island on Lake Dongting: buds gently "sealed yellow" under damp cloth, which mellows them. Toasted rice, sweet corn and apricot. Steep 3 g in 150 ml at 80 °C for 3 min.'
+    -   title: 'Alishan High Mountain Oolong, 100 g'
+        collection_name: Oolong
+        price_eur: 21
+        image: media/alishan_high_mountain_oolong.webp
+        description: 'Rolled pearls from a garden at 1,400 m in the clouds of Alishan, Taiwan, lightly oxidised. Orchid, fresh butter and a long, sweet finish; the leaves open cup after cup. Partial oxidation. Steep 5 g in 150 ml at 95 °C, 1 min, then longer.'
+    -   title: 'Wuyi Da Hong Pao — Big Red Robe, 50 g'
+        collection_name: Oolong
+        price_eur: 23.5
+        image: media/wuyi_da_hong_pao.webp
+        description: 'A rock oolong from the cliffs of the Wuyi mountains, charcoal-roasted in bamboo baskets. Roasted stone fruit, dark honey and a mineral "rock rhyme". Strong oxidation. Brew gongfu style: 6 g in 100 ml at 100 °C, short infusions.'
+    -   title: 'Darjeeling First Flush — Castleton, 100 g'
+        collection_name: Black Teas
+        price_eur: 18.9
+        image: media/darjeeling_first_flush_castleton.webp
+        description: 'The spring harvest of the Castleton garden, plucked in March at 1,500 m in the Himalayan foothills. Muscat grape, white flowers and almond in a golden amber cup. Lightly oxidised. Steep 2.5 g in 200 ml at 85 °C for 3 min; two infusions.'
+    -   title: 'Assam Second Flush — Halmari Gold Tips, 100 g'
+        collection_name: Black Teas
+        price_eur: 12.9
+        image: media/assam_second_flush_halmari.webp
+        description: 'Summer leaves rich in golden tips, from a garden on the banks of the Brahmaputra. Malty and bold, with a hint of cocoa: lovely with a splash of milk. Fully oxidised. Steep 3 g in 250 ml at 95 °C for 4 min.'
+    -   title: 'Teahouse Breakfast Blend, 250 g'
+        collection_name: Black Teas
+        price_eur: 11.5
+        image: media/teahouse_breakfast_blend.webp
+        description: 'Our house blend of Assam, Ceylon Uva and Kenyan teas, robust enough for milk and a morning toast. Malt, toasted bread and a brisk, coppery cup. Steep 3 g in 250 ml at 95 °C for 4 min. Refill pouch, fits our 250 g tin.'
+    -   title: 'Earl Grey Bergamot Blossom, 100 g'
+        collection_name: Black Teas
+        price_eur: 13.9
+        image: media/earl_grey_bergamot_blossom.webp
+        description: 'A Ceylon black tea scented with cold-pressed Calabrian bergamot and dotted with cornflower petals. Bright citrus, a floral lift and a smooth finish. Steep 2.5 g in 200 ml at 90 °C for 3 min, with or without a slice of lemon.'
+    -   title: 'Yunnan Shu Pu-erh — 2016 Cake, 357 g'
+        collection_name: Pu-erh
+        price_eur: 39
+        image: media/yunnan_shu_pu_erh_2016_cake.webp
+        description: 'A pressed cake of old-tree leaves from Menghai, fermented then aged for eight years. Earthy, woody and deep, with notes of cocoa and dates. Rinse 7 g briefly, then brew in 120 ml at 100 °C for 20 to 30 s; ten infusions and more. Wrapped in cotton paper.'
+    -   title: 'Celadon Kyusu Teapot, 300 ml'
+        collection_name: Teaware
+        price_eur: 58
+        image: media/celadon_kyusu_teapot.webp
+        description: 'A side-handled Japanese teapot thrown by hand, glazed in a pale jade celadon, with a fine built-in stainless filter. Perfect for sencha and green teas, it pours cleanly to the last drop. 300 ml, for two cups. Hand wash.'
+    -   title: 'Porcelain Tasting Cups, Set of Two'
+        collection_name: Teaware
+        price_eur: 29
+        image: media/porcelain_tasting_cups.webp
+        description: 'Two thin white porcelain cups, 90 ml, with a jade ring inside the rim to judge the colour of the liquor. Made for gongfu tastings of oolong and pu-erh. Dishwasher safe.'
+    -   title: 'Matcha Set — Bowl, Whisk and Scoop'
+        collection_name: Teaware
+        price_eur: 49
+        image: media/matcha_set_bowl_whisk_scoop.webp
+        description: 'Everything to whisk your first matcha: a stoneware chawan glazed in deep green, a hundred-prong bamboo chasen, a bamboo chashaku scoop and a whisk holder. Gift boxed, with a step-by-step card.'
+    -   title: 'Jade Lacquer Tea Caddy, 250 g'
+        collection_name: Teaware
+        price_eur: 19
+        image: media/jade_lacquer_tea_caddy.webp
+        description: 'Our airtight tin with a double lid, lacquered jade green and stamped with the vermilion house seal. Keeps 250 g of loose leaf tea away from light, air and smells. Refill it with our pouches.'
