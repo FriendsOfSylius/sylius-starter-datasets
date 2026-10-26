@@ -11,6 +11,7 @@ demo shop is created from it without any AI call or download.
 | `retro-gaming` | Sixteen retro consoles, games and accessories, on six shelves | Retro Gaming    |
 | `roastery`     | Sixteen specialty coffees and brewing tools, on six shelves   | Roastery        |
 | `supermarket`  | Nine everyday groceries, one per supermarket aisle            | Drive           |
+| `tech`         | Sixteen devices from fictional brands, in six departments     | Tech            |
 | `video-games`  | Sixteen fictional video games, in six genres                  | Arena           |
 
 ## Installation
