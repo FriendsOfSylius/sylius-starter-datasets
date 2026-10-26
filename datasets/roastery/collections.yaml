@@ -1,0 +1,8 @@
+# Roastery dataset: the shelves the coffees and tools are sorted by (see products.yaml).
+collections:
+    -   name: Single Origins
+    -   name: Blends
+    -   name: Espresso
+    -   name: Decaf
+    -   name: Brewing
+    -   name: Gifts

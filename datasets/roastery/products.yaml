@@ -1,0 +1,85 @@
+# Roastery dataset: sixteen coffees and brewing tools from a fictional roaster (see dataset.yaml).
+# Each image is a path relative to the dataset directory, so the import copies it instead of downloading it.
+mode: ai
+name: Roastery
+products:
+    -   title: 'Ethiopia Guji — Hambela Natural, 250 g'
+        collection_name: Single Origins
+        price_eur: 15.9
+        image: media/ethiopia_guji_hambela_natural.webp
+        description: 'Lot nº 27 from a smallholder washing station in Hambela, grown at 2,100 to 2,300 m and dried whole in the cherry on raised beds. Blueberry, jasmine and cocoa nib. Light roast (1 out of 5), for filter, pour over and Aeropress. Whole bean or ground to order.'
+    -   title: 'Ethiopia Yirgacheffe — Kochere Washed, 250 g'
+        collection_name: Single Origins
+        price_eur: 14.9
+        image: media/ethiopia_yirgacheffe_kochere_washed.webp
+        description: 'Heirloom varieties from the Kochere hills, grown at 1,950 m and washed. Bergamot, white peach and black tea, with a lively, citrus acidity. Light roast (1 out of 5): brew it as a pour over, 15 g for 250 ml at 94 °C.'
+    -   title: 'Colombia Huila — La Plata, 250 g'
+        collection_name: Single Origins
+        price_eur: 13.5
+        image: media/colombia_huila_la_plata.webp
+        description: 'Caturra and castillo from family farms around La Plata, at 1,750 m, washed and dried on the patio. Red apple, panela and milk chocolate, round and balanced. Medium light roast (2 out of 5), good in a filter machine as in a French press.'
+    -   title: 'Guatemala Antigua — Finca El Pilar, 250 g'
+        collection_name: Single Origins
+        price_eur: 13.9
+        image: media/guatemala_antigua_finca_el_pilar.webp
+        description: 'Bourbon grown in the shade at 1,600 m on the volcanic slopes above Antigua, washed. Dark chocolate, roasted hazelnut and a hint of spice. Medium roast (3 out of 5), at home in a moka pot, a French press or with milk.'
+    -   title: 'Kenya Nyeri — Karima Hill AA, 250 g'
+        collection_name: Single Origins
+        price_eur: 16.5
+        image: media/kenya_nyeri_karima_hill_aa.webp
+        description: 'SL28 and SL34 from a cooperative factory on the slopes of Mount Kenya, at 1,800 m, double washed and graded AA. Blackcurrant, pink grapefruit and a juicy, winey body. Light roast (1 out of 5), for pour over and batch brew.'
+    -   title: 'Copper Drum House Blend, 1 kg'
+        collection_name: Blends
+        price_eur: 39
+        image: media/copper_drum_house_blend_1kg.webp
+        description: 'Our everyday coffee: Brazil Cerrado and Colombia Huila, roasted together in the copper drum. Milk chocolate, toasted almond and brown sugar, low acidity. Medium roast (3 out of 5), from espresso to filter. The 1 kg bag for offices and big drinkers.'
+    -   title: 'Morning Kraft Breakfast Blend, 250 g'
+        collection_name: Blends
+        price_eur: 11.9
+        image: media/morning_kraft_breakfast_blend.webp
+        description: 'A bright, easy blend for the first cup of the day: washed Guatemala and Ethiopia. Orange zest, honey and biscuit, lovely black or with a dash of milk. Medium light roast (2 out of 5), for filter machines and French press.'
+    -   title: 'Fireside Dark Roast, 250 g'
+        collection_name: Blends
+        price_eur: 11.5
+        image: media/fireside_dark_roast.webp
+        description: 'Brazil and Sumatra taken to the edge of the second crack, slowly, so it stays sweet and never burnt. Dark chocolate, molasses and a touch of cedar smoke, full body. Dark roast (5 out of 5), for moka pot, French press and milk drinks.'
+    -   title: 'Espresso Nº 7, 1 kg'
+        collection_name: Espresso
+        price_eur: 36
+        image: media/espresso_no_7_1kg.webp
+        description: 'The seventh recipe of our espresso, poured in many coffee shops: Fazenda Rainha natural, Finca El Pilar and a touch of washed Ethiopia. Caramel, cocoa and red berries under a thick hazel crema. Medium dark roast (4 out of 5). Dial it in at 18 g in, 38 g out, 28 seconds.'
+    -   title: 'Brazil Cerrado — Fazenda Rainha, 250 g'
+        collection_name: Espresso
+        price_eur: 12.5
+        image: media/brazil_cerrado_fazenda_rainha.webp
+        description: 'Yellow catuaí from a family estate of the Cerrado Mineiro, at 1,150 m, natural process. Caramel, almond and cocoa, the base of our espresso blend, sweet and low in acidity. Medium dark roast (4 out of 5), for espresso and moka pot.'
+    -   title: 'Colombia Decaf — Sugarcane Process, 250 g'
+        collection_name: Decaf
+        price_eur: 13.5
+        image: media/colombia_decaf_sugarcane.webp
+        description: 'Caturra from Huila, decaffeinated at origin with ethyl acetate from local sugarcane, a natural and gentle process that keeps the sweetness. Red grape, panela and milk chocolate, 99.9 % caffeine free. Medium roast (3 out of 5), for the evening espresso or filter.'
+    -   title: 'Copper Pour-Over Dripper'
+        collection_name: Brewing
+        price_eur: 42
+        image: media/copper_pour_over_dripper.webp
+        description: 'A cone dripper turned in copper, lined with tin for a neutral taste, with spiral ribs for an even flow. Fits size 02 paper filters and most carafes and cups. Brews one to four cups. Forty filters included.'
+    -   title: 'Hand Burr Grinder'
+        collection_name: Brewing
+        price_eur: 89
+        image: media/hand_burr_grinder.webp
+        description: 'Stainless steel conical burrs, a walnut handle and a click dial with 40 settings, from Turkish to French press. Grinds 20 g for a pour over in about 40 seconds. Takes 30 g of beans, comes apart for cleaning without tools.'
+    -   title: 'Gooseneck Pour-Over Kettle'
+        collection_name: Brewing
+        price_eur: 69
+        image: media/gooseneck_pour_over_kettle.webp
+        description: 'A 900 ml stainless steel kettle in matte black with a thin gooseneck spout for a slow, precise pour, a walnut handle and a copper lid knob. Built-in thermometer, works on gas, electric and induction hobs.'
+    -   title: 'Origins Tasting Box — 4 x 100 g'
+        collection_name: Gifts
+        price_eur: 34
+        image: media/origins_tasting_box.webp
+        description: 'Four single origins to taste side by side: Ethiopia Guji, Ethiopia Yirgacheffe, Colombia Huila and Guatemala Antigua, in 100 g bags with their roast profile cards and a tasting sheet. Gift box with a copper ribbon, a message card on request.'
+    -   title: 'Stoneware Mugs, Set of Two'
+        collection_name: Gifts
+        price_eur: 28
+        image: media/stoneware_mugs_set_of_two.webp
+        description: 'Two 180 ml mugs thrown in speckled cream stoneware, with a copper glaze on the rim, made by a potter near the roastery. Each mug is unique. Dishwasher safe.'
