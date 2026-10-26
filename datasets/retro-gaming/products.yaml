@@ -1,0 +1,85 @@
+# Retro gaming dataset: sixteen items from fictional brands (see dataset.yaml).
+# Each image is a path relative to the dataset directory, so the import copies it instead of downloading it.
+mode: ai
+name: Retro Gaming
+products:
+    -   title: 'Nova 16 — Console Pack'
+        collection_name: Consoles
+        price_eur: 149
+        image: media/nova_16_console_pack.webp
+        description: 'The 16-bit home console of 1991, refurbished in our workshop: new capacitors, cleaned cartridge slot, retrobrighted shell. PAL, 50/60 Hz switch fitted. Two wired pads, RGB SCART cable and power supply included. 12-month warranty.'
+    -   title: 'Dreamer 64 — Refurbished Console'
+        collection_name: Consoles
+        price_eur: 129
+        image: media/dreamer_64_console.webp
+        description: 'The 64-bit console of 1996, opened, cleaned and tested on a CRT. Memory expansion pack fitted, power supply and AV cable included, controller sold separately. Graded A: light marks on the shell.'
+    -   title: 'Pixelion Micro — Mini Console with 30 Games'
+        collection_name: Consoles
+        price_eur: 69.9
+        image: media/pixelion_micro_mini_console.webp
+        description: 'A palm-sized console that plugs into any TV through HDMI, with thirty licensed indie and arcade games built in, save states and a CRT filter. One wired pad, a USB cable and a 1.5 m HDMI cable in the box. New.'
+    -   title: 'Dragon Vault — Nova 16, Boxed'
+        collection_name: Games
+        price_eur: 54
+        image: media/dragon_vault_nova_16_boxed.webp
+        description: 'The 1993 action RPG, complete in box: cartridge, manual and fold-out map. Battery replaced in 2024, so your saves are kept. PAL version, box graded VG with a small crease on the back.'
+    -   title: 'Turbo Comet Rally — Dreamer 64'
+        collection_name: Games
+        price_eur: 39
+        image: media/turbo_comet_rally_dreamer_64.webp
+        description: 'Arcade rally on twelve stages, with a four-player split screen and a hidden comet car. Boxed with its cartridge, no manual. PAL version, tested on console.'
+    -   title: 'Moonlight Ninja Saga — Nova 16, Cartridge Only'
+        collection_name: Games
+        price_eur: 29.9
+        image: media/moonlight_ninja_saga_nova_16_cartridge.webp
+        description: 'Side-scrolling ninja action, famous for its moonlit castle level. Cartridge only, original label in very good condition, contacts cleaned. Region free on the Nova 16.'
+    -   title: 'Starfall Squadron — New Homebrew Cartridge'
+        collection_name: Games
+        price_eur: 44
+        image: media/starfall_squadron_homebrew_cartridge.webp
+        description: 'A brand new vertical shoot''em up written in 2025 for the original 8-bit hardware: six stages, two-player co-op, a chiptune soundtrack. Translucent cyan cartridge, printed box and manual. 1,000 numbered copies.'
+    -   title: 'Kairo Pocket Color — Teal'
+        collection_name: Handhelds
+        price_eur: 89
+        image: media/kairo_pocket_color_teal.webp
+        description: 'The 1998 colour handheld in translucent teal, refurbished: new screen lens, new buttons, cleaned cartridge slot. Runs on two AA batteries for about ten hours. 12-month warranty.'
+    -   title: 'Pixelion Go — Backlit Handheld'
+        collection_name: Handhelds
+        price_eur: 119
+        image: media/pixelion_go_backlit_handheld.webp
+        description: 'A modern handheld with a 3.5" backlit IPS screen, shoulder buttons and an 8-hour battery, charged over USB-C. Plays your own homebrew and the twenty indie games included. Matte purple. New.'
+    -   title: 'Nova 16 Wireless Pad'
+        collection_name: Controllers
+        price_eur: 34.9
+        image: media/nova_16_wireless_pad.webp
+        description: 'The pad of the 16-bit era, now wireless at 2.4 GHz with no noticeable lag, in the colours of the console. Plugs into the Nova 16 or a USB port through its receiver. 30-hour battery, USB-C.'
+    -   title: 'Arcadia Pro Fight Stick'
+        collection_name: Controllers
+        price_eur: 129
+        image: media/arcadia_pro_fight_stick.webp
+        description: 'Tournament-grade stick with a square-gated ball-top lever and six 30 mm concave buttons, swappable artwork under a clear top panel. USB-C, works on PC and modern consoles. 2.5 kg, rubber feet.'
+    -   title: 'Dreamer 64 Controller — Refurbished'
+        collection_name: Controllers
+        price_eur: 24
+        image: media/dreamer_64_controller.webp
+        description: 'The original controller with its central stick, now fitted with a brand new analog module: tight and precise again. Cleaned, tested on console. Graded B: light wear on the cable.'
+    -   title: 'Neon Upright Arcade Cabinet'
+        collection_name: Arcade
+        price_eur: 1190
+        image: media/neon_upright_arcade_cabinet.webp
+        description: 'A full-size two-player cabinet with a 19" 4:3 screen, two sticks and fourteen buttons, LED neon edges and a backlit marquee. 170 x 65 x 75 cm, delivered assembled to your room, ready to load with your own legal games. 2-year warranty.'
+    -   title: 'Arcade Button & Joystick Kit'
+        collection_name: Arcade
+        price_eur: 39
+        image: media/arcade_button_joystick_kit.webp
+        description: 'Everything to build your own stick: one ball-top joystick, twelve 30 mm concave buttons in six colours, a pre-drilled white panel, a zero-delay USB encoder and all the wires. No soldering needed.'
+    -   title: 'Scanline HDMI Upscaler'
+        collection_name: Accessories
+        price_eur: 79
+        image: media/crt_scanline_hdmi_upscaler.webp
+        description: 'Turns the composite and S-video output of your old consoles into a clean 1080p picture, with adjustable scanlines and less than one frame of lag. OLED menu, remote control and HDMI cable included.'
+    -   title: 'Cartridge Wall Shelf'
+        collection_name: Accessories
+        price_eur: 29
+        image: media/cartridge_wall_shelf.webp
+        description: 'A three-tier shelf in solid beech that shows up to 24 cartridges, labels facing out. 60 cm wide, screws and wall plugs included. Cartridges not included.'

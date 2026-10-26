@@ -4,11 +4,12 @@ Ready-made demo datasets for the Sylius Starter import package: each one is a ca
 `collections.yaml`) shipped with its images (`media/`) and a `dataset.yaml` (name, description, suggested theme), so a
 demo shop is created from it without any AI call or download.
 
-| Dataset       | Catalog                                                  | Suggested theme |
-|---------------|----------------------------------------------------------|-----------------|
-| `cellar`      | Seventeen wines from fictional estates, in seven regions | Cellar          |
-| `groove`      | Sixteen fictional vinyl records, in six genres           | Groove          |
-| `supermarket` | Nine everyday groceries, one per supermarket aisle       | Drive           |
+| Dataset        | Catalog                                                       | Suggested theme |
+|----------------|---------------------------------------------------------------|-----------------|
+| `cellar`       | Seventeen wines from fictional estates, in seven regions      | Cellar          |
+| `groove`       | Sixteen fictional vinyl records, in six genres                | Groove          |
+| `retro-gaming` | Sixteen retro consoles, games and accessories, on six shelves | Retro Gaming    |
+| `supermarket`  | Nine everyday groceries, one per supermarket aisle            | Drive           |
 
 ## Installation
 

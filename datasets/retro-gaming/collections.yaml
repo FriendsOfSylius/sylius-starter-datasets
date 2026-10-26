@@ -1,0 +1,8 @@
+# Retro gaming dataset: the shelves the items are sorted by (see products.yaml).
+collections:
+    -   name: Consoles
+    -   name: Games
+    -   name: Handhelds
+    -   name: Controllers
+    -   name: Arcade
+    -   name: Accessories
