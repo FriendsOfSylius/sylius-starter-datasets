@@ -1,0 +1,8 @@
+# Video games dataset: the genres the games are sorted by (see products.yaml).
+collections:
+    -   name: Action
+    -   name: Role-Playing
+    -   name: Shooters
+    -   name: Racing
+    -   name: Sports
+    -   name: Strategy

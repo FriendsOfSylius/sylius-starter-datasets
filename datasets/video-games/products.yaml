@@ -1,0 +1,85 @@
+# Video games dataset: sixteen fictional games (see dataset.yaml).
+# Each image is a path relative to the dataset directory, so the import copies it instead of downloading it.
+mode: ai
+name: Video Games
+products:
+    -   title: 'Ashen Crown'
+        collection_name: Action
+        price_eur: 69.99
+        image: media/ashen_crown.webp
+        description: 'A dark fantasy action game where a fallen knight rekindles the last embers of a burnt kingdom. Demanding sword fights, a seamless open world and over sixty bosses. PC and current consoles, single player with online summons. Rated 16+. Digital key, delivered instantly.'
+    -   title: 'Tidebreaker — Deluxe Edition'
+        collection_name: Action
+        price_eur: 89.99
+        image: media/tidebreaker_deluxe_edition.webp
+        description: 'Sail an archipelago of storms, harpoon sea beasts and upgrade your ship in this naval adventure. The Deluxe Edition adds the Leviathan expansion, a digital artbook, the soundtrack and three days of early access. PC and current consoles. Rated 12+.'
+    -   title: 'Hollow Light'
+        collection_name: Action
+        price_eur: 24.99
+        image: media/hollow_light.webp
+        description: 'A hand-painted indie adventure: guide a child and their lantern through a forest of lost spirits, solving light puzzles. About eight hours, playable by two on one couch. PC and current consoles. Rated 7+.'
+    -   title: 'Starward Exile — Collector''s Edition'
+        collection_name: Role-Playing
+        price_eur: 149.99
+        image: media/starward_exile_collectors_edition.webp
+        description: 'A science fiction role-playing game: lead an exiled crew across a galaxy shaped by your choices, over a hundred hours of play. Boxed Collector''s Edition: steelbook, 25 cm statue of the ship, cloth star map, artbook and the season pass. Rated 16+.'
+    -   title: 'Chronicles of Veyra'
+        collection_name: Role-Playing
+        price_eur: 59.99
+        image: media/chronicles_of_veyra.webp
+        description: 'A classic fantasy role-playing game in a world of floating islands: a party of six, turn-based battles and a fully orchestrated score. Japanese and English voices. PC and current consoles. Rated 12+.'
+    -   title: 'Neon Dynasty'
+        collection_name: Role-Playing
+        price_eur: 49.99
+        image: media/neon_dynasty.webp
+        description: 'An action role-playing game in a rain-soaked megacity ruled by corporate clans. Cybernetic implants, katana combat and branching quests. Includes the free Ghost District update. PC and current consoles. Rated 18+.'
+    -   title: 'Vanguard'
+        collection_name: Shooters
+        price_eur: 69.99
+        image: media/vanguard.webp
+        description: 'A military science fiction shooter: a twelve-mission campaign in power armour, playable in co-op, and 64-player online battles with vehicles and dropships. PC and current consoles. Rated 18+.'
+    -   title: 'Zero Signal — Pre-order'
+        collection_name: Shooters
+        price_eur: 69.99
+        image: media/zero_signal.webp
+        description: 'Survival horror in a derelict space station that went silent. Pre-order now: your key unlocks on launch day at midnight, with the Deep Space suit and the digital soundtrack as pre-order bonuses. PC and current consoles. Rated 18+.'
+    -   title: 'Overclock'
+        collection_name: Shooters
+        price_eur: 29.99
+        image: media/overclock.webp
+        description: 'A colourful five-versus-five hero shooter with twenty heroes at launch, ranked seasons and cross-play. This Founder''s Pack unlocks every launch hero and 2,000 credits. PC and current consoles, online play. Rated 12+.'
+    -   title: 'Night Drift'
+        collection_name: Racing
+        price_eur: 59.99
+        image: media/night_drift.webp
+        description: 'Street racing in an open city at night: 180 cars to tune, a story of rival crews and eight-player online races. 4K at 60 fps on current consoles, ray tracing on PC. Rated 3+.'
+    -   title: 'Sand Rally'
+        collection_name: Racing
+        price_eur: 39.99
+        image: media/sand_rally.webp
+        description: 'An off-road rally across deserts and canyons, with trucks, buggies and bikes, dynamic sandstorms and a ten-stage raid mode. Split screen for two. PC and current consoles. Rated 3+.'
+    -   title: 'Striker 26'
+        collection_name: Sports
+        price_eur: 69.99
+        image: media/striker_26.webp
+        description: 'The football simulation of the season: over 700 fictional clubs, a career mode from academy to final, and online leagues. Includes 2,800 Striker points. PC and current consoles. Rated 3+.'
+    -   title: 'Summit Snowboard'
+        collection_name: Sports
+        price_eur: 34.99
+        image: media/summit_snowboard.webp
+        description: 'Open-mountain snowboarding with trick combos, six peaks to explore and a photo mode. Ride with friends in online sessions. PC and current consoles. Rated 3+.'
+    -   title: 'Kingdoms Rising'
+        collection_name: Strategy
+        price_eur: 49.99
+        image: media/kingdoms_rising.webp
+        description: 'A grand strategy game of medieval dynasties: build your realm, marry for alliances and lead armies of thousands in real-time battles. Campaign, sandbox and online multiplayer. PC. Rated 12+.'
+    -   title: 'Orbit City'
+        collection_name: Strategy
+        price_eur: 29.99
+        image: media/orbit_city.webp
+        description: 'A city builder on a ring station in orbit: manage air, gravity and happiness, and grow from ten colonists to a hundred thousand. Mod support and a sandbox mode. PC. Rated 3+.'
+    -   title: 'Toy Army'
+        collection_name: Strategy
+        price_eur: 19.99
+        image: media/toy_army.webp
+        description: 'A cheerful turn-based tactics game with toy armies on tabletop maps. Forty missions, a map editor and local or online duels. A perfect first strategy game. PC and current consoles. Rated 7+.'
