@@ -1,0 +1,95 @@
+# Outdoor gear dataset: eighteen pieces of fictional hiking, climbing and camping gear (see dataset.yaml).
+# Each image is a path relative to the dataset directory, so the import copies it instead of downloading it.
+mode: ai
+name: Outdoor Gear
+products:
+    -   title: 'Ridgeline 38 Hiking Pack'
+        collection_name: Packs
+        price_eur: 169
+        image: media/ridgeline_38_hiking_pack.webp
+        description: 'A 38 L pack for long day hikes and hut-to-hut trips. Ventilated back panel with an adjustable torso length, padded hip belt with two zipped pockets, ice axe and pole loops, integrated rain cover. Recycled 210D ripstop nylon. 1.25 kg. Torso sizes S/M and M/L.'
+    -   title: 'Talus 22 Daypack'
+        collection_name: Packs
+        price_eur: 89
+        image: media/talus_22_daypack.webp
+        description: 'A light 22 L daypack for half-day walks and fast hikes. Mesh back panel, stretch side pockets for two bottles, hydration sleeve, removable hip strap and a whistle on the sternum strap. 620 g. One size.'
+    -   title: 'Vertex 55+10 Trekking Pack'
+        collection_name: Packs
+        price_eur: 239
+        image: media/vertex_55_trekking_pack.webp
+        description: 'A 55 L trekking pack that grows to 65 L with its extendable lid, for multi-day treks with a tent. Aluminium frame carrying up to 22 kg, front U-zip access, sleeping bag compartment and compression straps. 2.1 kg. Torso sizes S/M and M/L, men''s and women''s fits.'
+    -   title: 'Cairn Mid Waterproof Boots'
+        collection_name: Footwear
+        price_eur: 189
+        image: media/cairn_mid_waterproof_boots.webp
+        description: 'Mid-height hiking boots in nubuck leather with a waterproof, breathable membrane, for rocky trails and wet days. Lugged rubber sole with a 5 mm tread, rubber toe cap and a heel ready for walking crampons. 1.18 kg the pair (size 42). EU sizes 36 to 47.'
+    -   title: 'Scree Trail Running Shoes'
+        collection_name: Footwear
+        price_eur: 139
+        image: media/scree_trail_running_shoes.webp
+        description: 'Light trail running shoes for technical mountain paths: 6 mm lugs, a rock plate under the forefoot, 6 mm drop and a gusseted tongue that keeps gravel out. 290 g per shoe (size 42). EU sizes 36 to 47.'
+    -   title: 'Granite Approach Shoes'
+        collection_name: Footwear
+        price_eur: 149
+        image: media/granite_approach_shoes.webp
+        description: 'Approach shoes for the walk to the crag and easy scrambling: suede upper, sticky rubber sole with a climbing zone under the toes, lacing down to the toe and a heel loop to clip them to a harness. EU sizes 37 to 47.'
+    -   title: 'Storm Shell 3L Jacket'
+        collection_name: Clothing
+        price_eur: 299
+        image: media/storm_shell_jacket.webp
+        description: 'A three-layer waterproof shell for mountain storms: 20,000 mm waterproof, taped seams, a helmet-compatible hood, pit zips and two chest pockets reachable over a harness. Packs into its own pocket. 410 g. Men''s and women''s, sizes XS to XXL.'
+    -   title: 'Ember Down Jacket'
+        collection_name: Clothing
+        price_eur: 249
+        image: media/ember_down_jacket.webp
+        description: 'A warm, light down jacket for cold summits and camp evenings: responsibly sourced 800 fill power duck down, a water-repellent ripstop shell and an insulated hood. Packs into a stuff sack the size of a water bottle. 340 g. Sizes XS to XXL.'
+    -   title: 'Merino 150 Base Layer'
+        collection_name: Clothing
+        price_eur: 79
+        image: media/merino_150_base_layer.webp
+        description: 'A long-sleeve base layer in 150 g/m² merino wool: warm when wet, soft on the skin and odour-resistant for days on the trail. Flatlock seams, thumb loops and a slightly longer back. Men''s and women''s, sizes XS to XXL.'
+    -   title: 'Switchback Hiking Pants'
+        collection_name: Clothing
+        price_eur: 99
+        image: media/switchback_hiking_pants.webp
+        description: 'Four-way stretch hiking trousers with a water-repellent finish, articulated knees and reinforced ankles. Zipped thigh and hand pockets, adjustable waist and ankle cuffs. UPF 50. Sizes 36 to 52, regular and long legs.'
+    -   title: 'Crux Climbing Harness'
+        collection_name: Climbing
+        price_eur: 79
+        image: media/crux_climbing_harness.webp
+        description: 'An all-round climbing harness for the gym, the crag and multi-pitch routes: padded waist belt and leg loops, four gear loops, a haul loop and adjustable leg loops to wear over trousers. 360 g. Sizes XS to XL. CE and UIAA certified.'
+    -   title: 'Ascent 9.8 Dynamic Rope 60 m'
+        collection_name: Climbing
+        price_eur: 189
+        image: media/ascent_98_dynamic_rope.webp
+        description: 'A 9.8 mm single dynamic rope for sport climbing and multi-pitch routes, 60 m, with a dry treatment on the core and sheath and a middle mark. 7 UIAA falls, 62 g/m. CE and UIAA certified.'
+    -   title: 'Quickdraw Set ×6'
+        collection_name: Climbing
+        price_eur: 99
+        image: media/quickdraw_set.webp
+        description: 'Six 12 cm quickdraws for sport climbing: a straight-gate carabiner for the bolt and a bent-gate carabiner for the rope, keylock noses that never snag, and a rubber keeper holding the rope carabiner in place. 98 g per quickdraw. CE and UIAA certified.'
+    -   title: 'Bivouac 2 Ultralight Tent'
+        collection_name: Camping
+        price_eur: 449
+        image: media/bivouac_2_ultralight_tent.webp
+        description: 'A freestanding two-person tent for treks and bivouacs: two doors and two porches, a single pole hub that pitches in three minutes, a silicone-coated flysheet and a 3,000 mm groundsheet. Three seasons. 1.45 kg packed.'
+    -   title: 'Nightfall Down Sleeping Bag'
+        collection_name: Camping
+        price_eur: 329
+        image: media/nightfall_down_sleeping_bag.webp
+        description: 'A mummy down sleeping bag for three-season nights in the mountains: comfort temperature 0 °C, limit −5 °C. 700 fill power down, draught collar, a full-length two-way zip and a compression sack. 890 g. Regular and long.'
+    -   title: 'Alpine Stove Kit'
+        collection_name: Camping
+        price_eur: 69
+        image: media/alpine_stove_kit.webp
+        description: 'A compact gas stove with a 750 ml titanium pot that nests the stove and a 100 g gas canister. Piezo ignition and a wind-resistant burner: boils a litre of water in three and a half minutes. 245 g without the canister.'
+    -   title: 'Carbon Trekking Poles'
+        collection_name: Accessories
+        price_eur: 129
+        image: media/carbon_trekking_poles.webp
+        description: 'A pair of folding carbon trekking poles with cork grips and an adjustable length from 110 to 130 cm. Tungsten tips, trekking and snow baskets included. 215 g per pole, 38 cm folded.'
+    -   title: 'Lumen 400 Headlamp'
+        collection_name: Accessories
+        price_eur: 49
+        image: media/lumen_400_headlamp.webp
+        description: 'A rechargeable 400 lumen headlamp for early starts and camp nights: white flood and spot beams, a red light that keeps night vision, a lock mode for the bag and IPX4 water resistance. Up to 60 hours on the lowest setting, USB-C charging. 78 g.'

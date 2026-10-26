@@ -1,0 +1,8 @@
+# Outdoor gear dataset: the categories the gear is sorted by (see products.yaml).
+collections:
+    -   name: Packs
+    -   name: Footwear
+    -   name: Clothing
+    -   name: Climbing
+    -   name: Camping
+    -   name: Accessories
