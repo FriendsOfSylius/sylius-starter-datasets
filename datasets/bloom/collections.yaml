@@ -1,0 +1,8 @@
+# Bloom dataset: the shelves the beauty products are sorted by (see products.yaml).
+collections:
+    -   name: Skincare
+    -   name: Makeup
+    -   name: Fragrance
+    -   name: Hair Care
+    -   name: Body & Wellness
+    -   name: Beauty Tools

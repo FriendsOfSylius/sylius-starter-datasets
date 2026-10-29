@@ -1,0 +1,95 @@
+# Bloom dataset: eighteen beauty products and tools from a fictional beauty house (see dataset.yaml).
+# Each image is a path relative to the dataset directory, so the import copies it instead of downloading it.
+mode: ai
+name: Bloom
+products:
+    -   title: 'Peony Dew Gel Cream, 50 ml'
+        collection_name: Skincare
+        price_eur: 34
+        image: media/peony_dew_gel_cream.webp
+        description: 'Our bestselling moisturiser: a bouncy, water-light gel cream with peony extract, hyaluronic acid and 5 % glycerin that drinks in at once and leaves a dewy, never sticky finish. For normal to combination skin. Morning and evening on a clean face, before sunscreen.'
+    -   title: 'Rosehip & Squalane Face Oil, 30 ml'
+        collection_name: Skincare
+        price_eur: 29
+        image: media/rosehip_squalane_face_oil.webp
+        description: 'Cold-pressed rosehip seed oil and olive squalane in an amber dropper bottle, rich in vitamin A and omega 6. Melts into dry and dull skin and smooths it overnight. Warm three drops between the palms and press them onto the face as the last step of the evening.'
+    -   title: 'Rice Milk Gentle Cleanser, 150 ml'
+        collection_name: Skincare
+        price_eur: 19.5
+        image: media/rice_milk_gentle_cleanser.webp
+        description: 'A soft milky cleanser of fermented rice water and oat that lifts makeup, sunscreen and the day without tightness. pH 5.5, fragrance free, for every skin type, sensitive ones included. Massage onto dry skin, add a splash of water to emulsify, then rinse.'
+    -   title: 'Vitamin C 15 % Glow Serum, 30 ml'
+        collection_name: Skincare
+        price_eur: 38
+        image: media/vitamin_c_glow_serum.webp
+        description: 'A stable 15 % vitamin C with ferulic acid and blood orange to brighten a tired complexion and fade dark spots in four weeks. Fluid, fast absorbing, lightly citrus. Three drops every morning under the moisturiser, then an SPF.'
+    -   title: 'Velvet Matte Lipstick — Fig Petal'
+        collection_name: Makeup
+        price_eur: 24
+        image: media/velvet_matte_lipstick_fig_petal.webp
+        description: 'A blurred berry-rose matte in a refillable lacquered case. Shea butter and rosehip oil keep the lips comfortable all day, with one pass of full colour that does not dry or crack. Vegan formula, 3.5 g. Refill sold apart.'
+    -   title: 'Cheek & Lip Tint — Apricot Bloom, 8 g'
+        collection_name: Makeup
+        price_eur: 22
+        image: media/cheek_lip_tint_apricot_bloom.webp
+        description: 'A sheer, buildable balm that melts into cheeks and lips for a sun-kissed flush. Apricot kernel oil and vitamin E, no shimmer. Dab with the fingertips and blend upwards; layer a second tap for more colour.'
+    -   title: 'Silk Skin Tint SPF 20, 30 ml'
+        collection_name: Makeup
+        price_eur: 32
+        image: media/silk_skin_tint_spf20.webp
+        description: 'Light coverage that evens the tone and still looks like skin, with a satin, dewy finish. Niacinamide, squalane and SPF 20 mineral filters. Twelve shades, from porcelain to deep ebony. Spread with the fingertips or a damp sponge.'
+    -   title: 'Eyeshadow Quartet — Terracotta Garden'
+        collection_name: Makeup
+        price_eur: 36
+        image: media/eyeshadow_quartet_terracotta_garden.webp
+        description: 'Four warm shades in a mirrored compact: a peach matte, a clay satin, a copper shimmer and a deep cocoa to define. Creamy, blendable, long-lasting powders with no fallout. Wear one alone for a wash of colour or all four for an evening eye.'
+    -   title: 'Fig Leaf & Cedar Eau de Parfum, 50 ml'
+        collection_name: Fragrance
+        price_eur: 78
+        image: media/fig_leaf_cedar_eau_de_parfum.webp
+        description: 'A green, milky woody scent: crushed fig leaves and bergamot open onto coconut milk and orris, over Atlas cedar and soft musks. Lasts eight hours and more. A summer garden in the shade, for everyone. Heavy glass bottle, refillable.'
+    -   title: 'Neroli Mist Eau de Toilette, 100 ml'
+        collection_name: Fragrance
+        price_eur: 64
+        image: media/neroli_mist_eau_de_toilette.webp
+        description: 'Bright and sparkling: orange blossom from Tunisia, petitgrain and mandarin, then a clean white musk. A fresh splash for the warm days, to wear generously after the shower. Light, airy trail.'
+    -   title: 'Solid Perfume Compact — Jasmine Night'
+        collection_name: Fragrance
+        price_eur: 28
+        image: media/solid_perfume_jasmine_night.webp
+        description: 'Sambac jasmine, tuberose and a touch of vanilla, set in a balm of beeswax and jojoba oil, in a brass compact that fits in a pocket. Warm it with a fingertip and touch the wrists, the neck or behind the ears. Alcohol free, 8 g.'
+    -   title: 'Camellia Repair Hair Mask, 200 ml'
+        collection_name: Hair Care
+        price_eur: 26
+        image: media/camellia_repair_hair_mask.webp
+        description: 'A rich, whipped mask of camellia oil, rice proteins and shea that repairs dry and coloured lengths and seals split ends. Apply to damp hair after shampoo, comb through, leave for five minutes and rinse. Once or twice a week.'
+    -   title: 'Oat & Lavender Gentle Shampoo, 250 ml'
+        collection_name: Hair Care
+        price_eur: 18
+        image: media/oat_lavender_gentle_shampoo.webp
+        description: 'A sulfate-free cream shampoo for frequent washing and sensitive scalps: colloidal oat calms, lavender and a hint of chamomile leave a soft, clean scent. Lathers gently, rinses easily. Recycled glass bottle; refill pouches available.'
+    -   title: 'Shea & Orange Blossom Body Butter, 200 ml'
+        collection_name: Body & Wellness
+        price_eur: 27
+        image: media/shea_orange_blossom_body_butter.webp
+        description: 'A whipped butter of fair-trade shea from Burkina Faso and cocoa butter, scented with orange blossom. Melts on warm skin and keeps it soft for 48 hours, elbows and knees included. Massage in after the bath.'
+    -   title: 'Eucalyptus Magnesium Bath Salts, 500 g'
+        collection_name: Body & Wellness
+        price_eur: 21
+        image: media/eucalyptus_magnesium_bath_salts.webp
+        description: 'Magnesium flakes, Dead Sea salt and pink Himalayan salt with eucalyptus and peppermint essential oils, to soak tired muscles after sport or a long day. Pour two handfuls into a warm bath and stay twenty minutes. Kraft refill pouch.'
+    -   title: 'Lavender & Chamomile Pillow Mist, 100 ml'
+        collection_name: Body & Wellness
+        price_eur: 19
+        image: media/lavender_chamomile_pillow_mist.webp
+        description: 'A calming bedtime ritual: fine lavender from Haute-Provence, Roman chamomile and a drop of vetiver. Mist the pillow and the sheets from 30 cm before going to bed, take three slow breaths and switch off the light.'
+    -   title: 'Rose Quartz Gua Sha'
+        collection_name: Beauty Tools
+        price_eur: 25
+        image: media/rose_quartz_gua_sha.webp
+        description: 'A hand-polished rose quartz stone, cool to the touch, shaped to follow the jaw, the cheekbones and the brows. Glide it upwards over a face oil for five minutes to drain puffiness and relax the features. Comes in a velvet pouch.'
+    -   title: 'Pear Wood Boar Bristle Brush'
+        collection_name: Beauty Tools
+        price_eur: 42
+        image: media/pear_wood_boar_bristle_brush.webp
+        description: 'An oval brush turned in FSC pear wood, with a cushion of natural boar bristles. Detangles gently, spreads the natural oils from root to tip and leaves the hair glossy. For every hair type, made in the Black Forest.'

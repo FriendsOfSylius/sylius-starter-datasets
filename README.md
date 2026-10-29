@@ -6,6 +6,7 @@ demo shop is created from it without any AI call or download.
 
 | Dataset        | Catalog                                                       | Suggested theme |
 |----------------|---------------------------------------------------------------|-----------------|
+| `bloom`        | Eighteen beauty products and tools, on six shelves            | Bloom           |
 | `cellar`       | Seventeen wines from fictional estates, in seven regions      | Cellar          |
 | `groove`       | Sixteen fictional vinyl records, in six genres                | Groove          |
 | `home`         | Eighteen pieces of furniture, lighting, linen and tableware   | Hearth          |
