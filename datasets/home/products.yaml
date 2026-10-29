@@ -1,0 +1,95 @@
+# Home & Living dataset: eighteen pieces from a fictional home studio (see dataset.yaml).
+# Each image is a path relative to the dataset directory, so the import copies it instead of downloading it.
+mode: ai
+name: 'Home & Living'
+products:
+    -   title: 'Alba Oak Sideboard, 160 cm'
+        collection_name: Furniture
+        price_eur: 1290
+        image: media/alba_oak_sideboard.webp
+        description: 'A low sideboard in solid FSC oak with a natural oil finish, three cane-fronted doors and two adjustable shelves behind each. Rounded edges, tapered legs and soft-close hinges. 160 × 45 × 75 cm. Delivered assembled, with installation in the room of your choice. Wipe with a damp cloth; oil once a year.'
+    -   title: 'Nido Bouclé Armchair'
+        collection_name: Furniture
+        price_eur: 690
+        image: media/nido_boucle_armchair.webp
+        description: 'A deep, enveloping armchair upholstered in a cream wool-blend bouclé, on a solid beech base. Its rounded shell and high-resilience foam make it the reading seat of the house. 82 × 80 × 74 cm, seat height 42 cm. Removable seat cushion; vacuum gently, spot clean with a damp cloth.'
+    -   title: 'Lune Round Dining Table, Ø 120 cm'
+        collection_name: Furniture
+        price_eur: 980
+        image: media/lune_round_dining_table.webp
+        description: 'A round table on a sculpted pedestal, in solid ash with a warm walnut stain, seating four to six. The single base leaves room for every chair and every knee. Ø 120 cm, height 75 cm. Delivered in two parts, assembled at home by our team. Protect from direct heat and wipe spills quickly.'
+    -   title: 'Soleil Rattan Pendant Lamp, Ø 50 cm'
+        collection_name: Lighting
+        price_eur: 189
+        image: media/soleil_rattan_pendant_lamp.webp
+        description: 'A wide dome of natural rattan, woven by hand in Cirebon, that throws a warm, patterned light over a dining table. Linen-covered cable of 150 cm, adjustable, with a white ceiling rose. Ø 50 cm, height 32 cm. E27 bulb, 40 W max (not included). Dust with a soft brush.'
+    -   title: 'Opaline Mushroom Table Lamp'
+        collection_name: Lighting
+        price_eur: 129
+        image: media/opaline_mushroom_table_lamp.webp
+        description: 'A mouth-blown opal glass shade on a glazed ceramic base in sage green: a soft, diffused glow for a bedside or a console. Ø 30 cm, height 38 cm. Fabric cable with a foot dimmer switch. E14 bulb, 25 W max (not included).'
+    -   title: 'Arc Brass Floor Lamp'
+        collection_name: Lighting
+        price_eur: 349
+        image: media/arc_brass_floor_lamp.webp
+        description: 'A slender arc in brushed brass on a white marble base, ending in a pleated linen shade that reaches over a sofa. Height 185 cm, reach 120 cm, shade Ø 40 cm. Fabric cable with an on/off switch. E27 bulb, 60 W max (not included). The brass patinates gently with time.'
+    -   title: 'Terra Stoneware Vase, Large'
+        collection_name: Decoration
+        price_eur: 59
+        image: media/terra_stoneware_vase.webp
+        description: 'A round-bellied vase thrown by hand in a Portuguese workshop, in a raw terracotta stoneware with a satin finish. Each one is unique, with the slight marks of the potter. Ø 22 cm, height 28 cm. Watertight; for fresh and dried flowers alike.'
+    -   title: 'Arched Oak Wall Mirror, 60 × 90 cm'
+        collection_name: Decoration
+        price_eur: 219
+        image: media/arched_oak_wall_mirror.webp
+        description: 'An arched mirror in a slim frame of solid oak, to hang above a console or lean against a wall. Bevelled glass, safety film on the back. 60 × 90 cm, frame 2.5 cm. Hangs vertically with the two hooks provided.'
+    -   title: 'Dune Hand-Tufted Wool Rug, 160 × 230 cm'
+        collection_name: Decoration
+        price_eur: 449
+        image: media/dune_wool_rug.webp
+        description: 'A hand-tufted rug in New Zealand wool, its soft dunes drawn in sand, terracotta and ochre. Thick 14 mm pile, cotton backing. 160 × 230 cm. Vacuum without a beater brush; professional cleaning recommended. Also exists in 200 × 300 cm on request.'
+    -   title: 'Washed Linen Duvet Cover Set, Terracotta'
+        collection_name: Home Linen
+        price_eur: 169
+        image: media/washed_linen_duvet_set.webp
+        description: 'A duvet cover and two pillowcases in 100 % European flax linen, stone-washed for a supple, lived-in feel from the first night. Coconut buttons. Duvet cover 240 × 220 cm, pillowcases 65 × 65 cm. Machine wash at 40 °C; no need to iron.'
+    -   title: 'Stonewashed Linen Cushion Cover, Sage, 50 × 50 cm'
+        collection_name: Home Linen
+        price_eur: 39
+        image: media/linen_cushion_cover_sage.webp
+        description: 'A cushion cover in heavy stonewashed linen, sage green with a fine piped edge, closed by a hidden zip. 50 × 50 cm, insert not included. Machine wash at 40 °C. Mix it with the terracotta and ochre covers of the same range.'
+    -   title: 'Waffle Cotton Throw, Ochre'
+        collection_name: Home Linen
+        price_eur: 89
+        image: media/waffle_cotton_throw.webp
+        description: 'A light honeycomb throw in organic cotton, dyed a sunny ochre and finished with short tassels, for the end of the sofa or the foot of the bed. 130 × 170 cm. Machine wash at 30 °C; dry flat.'
+    -   title: 'Glazed Stoneware Dinner Set, 12 Pieces'
+        collection_name: Kitchen
+        price_eur: 149
+        image: media/glazed_stoneware_dinner_set.webp
+        description: 'Four dinner plates, four side plates and four bowls in a reactive-glazed stoneware, each one a slightly different blend of cream and speckled sand. Dinner plate Ø 27 cm, side plate Ø 21 cm, bowl Ø 15 cm. Dishwasher and microwave safe.'
+    -   title: 'Enamelled Cast Iron Casserole, 24 cm'
+        collection_name: Kitchen
+        price_eur: 179
+        image: media/cast_iron_casserole.webp
+        description: 'A round cocotte in enamelled cast iron, glazed a deep terracotta outside and cream inside, with a brass knob. It slow-cooks on every hob, induction included, and in the oven up to 250 °C. Ø 24 cm, 4.2 L, 4.6 kg. Lifetime warranty on the enamel.'
+    -   title: 'Olive Wood Serving Board'
+        collection_name: Kitchen
+        price_eur: 49
+        image: media/olive_wood_serving_board.webp
+        description: 'A serving board cut from a single piece of olive wood, with a leather loop to hang it in the kitchen. Its grain makes each board unique. About 45 × 20 × 2 cm. Hand wash, then rub with food-grade oil from time to time.'
+    -   title: 'Riva Teak Lounge Chair'
+        collection_name: Garden
+        price_eur: 549
+        image: media/riva_teak_lounge_chair.webp
+        description: 'A low garden lounge chair in solid grade-A teak with a woven rope seat and a weatherproof cushion in sand-coloured outdoor fabric. 70 × 82 × 74 cm, seat height 36 cm. Left out all year, the teak turns a silvery grey; oil it to keep its honey tone.'
+    -   title: 'Terracotta Planter Set of 3'
+        collection_name: Garden
+        price_eur: 79
+        image: media/terracotta_planter_set.webp
+        description: 'Three frost-resistant planters in hand-pressed terracotta, with a rolled rim and a drainage hole, for the terrace or the windowsill. Ø 18, 25 and 32 cm. The clay breathes and keeps the roots cool in summer.'
+    -   title: 'Lumo Solar Rattan Lantern'
+        collection_name: Garden
+        price_eur: 69
+        image: media/lumo_solar_lantern.webp
+        description: 'A woven lantern in weatherproof synthetic rattan with a warm LED candle that charges from the sun and lights up at dusk, for six to eight hours. Ø 26 cm, height 40 cm, with a bamboo handle. IP44: it stays out in the rain.'

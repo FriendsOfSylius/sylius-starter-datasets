@@ -1,0 +1,8 @@
+# Home & Living dataset: the departments the pieces are sorted by (see products.yaml).
+collections:
+    -   name: Furniture
+    -   name: Lighting
+    -   name: Decoration
+    -   name: Home Linen
+    -   name: Kitchen
+    -   name: Garden
