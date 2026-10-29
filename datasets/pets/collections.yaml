@@ -1,0 +1,8 @@
+# Pets dataset: the aisles the pet products are sorted by (see products.yaml).
+collections:
+    -   name: Food
+    -   name: Treats
+    -   name: Toys
+    -   name: Accessories
+    -   name: Beds
+    -   name: Grooming & Care

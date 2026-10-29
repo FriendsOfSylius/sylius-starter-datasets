@@ -1,0 +1,95 @@
+# Pets dataset: eighteen products for dogs and cats from a fictional pet supply house (see dataset.yaml).
+# Each image is a path relative to the dataset directory, so the import copies it instead of downloading it.
+mode: ai
+name: Pets
+products:
+    -   title: 'Grain-Free Salmon Kibble, Adult Dog, 2 kg'
+        collection_name: Food
+        price_eur: 24.9
+        image: media/grain_free_salmon_kibble.webp
+        description: 'Our bestselling kibble: 65 % fresh Scottish salmon and white fish, sweet potato and peas, with no grain, no added colouring and omega 3 for a glossy coat. Small, crunchy pieces for adult dogs of every size. About 180 g a day for a 12 kg dog, split into two meals. Resealable kraft bag.'
+    -   title: 'Chicken & Pumpkin Wet Food for Cats, 12 × 85 g'
+        collection_name: Food
+        price_eur: 16.5
+        image: media/chicken_pumpkin_wet_cat_food.webp
+        description: 'Tender chunks of free-range chicken in a light broth, with pumpkin for a gentle digestion and taurine for the heart and the eyes. A complete food for adult cats, with 82 % moisture to keep them hydrated. One to two pouches a day with dry food, served at room temperature.'
+    -   title: 'Rabbit & Rosemary Senior Cat Kibble, 1.5 kg'
+        collection_name: Food
+        price_eur: 21
+        image: media/rabbit_rosemary_senior_cat_kibble.webp
+        description: 'A light recipe for cats from seven years old: French rabbit, brown rice and rosemary, with glucosamine for supple joints and less phosphorus for the kidneys. Small, easy-to-crunch kibbles. About 50 g a day for a 4 kg cat, with fresh water always at hand.'
+    -   title: 'Peanut Butter Training Bites, 200 g'
+        collection_name: Treats
+        price_eur: 6.9
+        image: media/peanut_butter_training_bites.webp
+        description: 'Soft, bone-shaped bites of peanut butter, oat and banana, small enough to reward every good sit, stay and recall without spoiling dinner. Three calories each, no added sugar or salt, baked in Brittany. For dogs from three months old.'
+    -   title: 'Freeze-Dried Chicken Hearts for Cats, 40 g'
+        collection_name: Treats
+        price_eur: 7.5
+        image: media/freeze_dried_chicken_hearts.webp
+        description: 'A single ingredient, French chicken hearts, freeze-dried raw to keep all their taste and their taurine. Crumble them over a meal or hand them out whole: even the fussiest cat comes running. Up to eight hearts a day. Glass jar with a cork lid.'
+    -   title: 'Natural Beef Chew Sticks, Pack of 6'
+        collection_name: Treats
+        price_eur: 9.9
+        image: media/natural_beef_chew_sticks.webp
+        description: 'Slow-dried beef sticks, 15 cm long, that keep a dog busy for a good while and clean the teeth as it chews. Nothing added, from grass-fed cattle. For adult dogs of medium and large breeds; always give them under supervision, with fresh water.'
+    -   title: 'Feather Wand Cat Teaser'
+        collection_name: Toys
+        price_eur: 8.5
+        image: media/feather_wand_cat_teaser.webp
+        description: 'A 90 cm beech wand with an elastic cord and a tuft of natural feathers and a jingle bell, to make an indoor cat leap, stalk and pounce. Five minutes of play twice a day is enough to tire it out. The feather tuft clips off and spares are sold apart.'
+    -   title: 'Squeaky Plush Carrot'
+        collection_name: Toys
+        price_eur: 9
+        image: media/squeaky_plush_carrot.webp
+        description: 'A crinkly corduroy carrot, 28 cm long, with a squeaker in the root and rope leaves to tug. Reinforced double seams for gentle chewers, filled with recycled fibres. Machine washable at 30 °C. Not for the dogs that destroy everything in five minutes.'
+    -   title: 'Snuffle Mat — Meadow'
+        collection_name: Toys
+        price_eur: 24
+        image: media/snuffle_mat_meadow.webp
+        description: 'A 45 × 45 cm felt meadow with flowers and grass tufts to hide kibbles and treats in: the dog sniffs them out one by one, which slows down greedy eaters and soothes anxious ones. Non-slip back, machine washable. Ten minutes of sniffing tire like a walk.'
+    -   title: 'Waxed Canvas Dog Collar — Tangerine'
+        collection_name: Accessories
+        price_eur: 22
+        image: media/waxed_canvas_dog_collar_tangerine.webp
+        description: 'A sturdy waxed cotton canvas collar, lined in soft webbing, with a solid brass buckle and a D-ring for the leash and the ID tag. Water resistant, it gets a nice patina over the walks. Four sizes, from 25 to 60 cm of neck; slip two fingers under it to check the fit.'
+    -   title: 'Braided Rope Leash, 1.5 m'
+        collection_name: Accessories
+        price_eur: 29
+        image: media/braided_rope_leash.webp
+        description: 'A round climbing rope leash, braided by hand, soft in the hand and strong enough for dogs up to 40 kg, with a leather grip and a brass snap hook that swivels. 1.5 m long for city walks. Matches the Waxed Canvas Collar.'
+    -   title: 'Speckled Stoneware Bowl — Mint'
+        collection_name: Accessories
+        price_eur: 18
+        image: media/speckled_stoneware_bowl_mint.webp
+        description: 'A heavy stoneware bowl that stays put, glazed in speckled mint and thrown in a Portuguese workshop. Wide and shallow, so whiskers do not touch the edges. 600 ml, for water or a meal. Dishwasher safe; each bowl is slightly different.'
+    -   title: 'Donut Cuddler Bed — Oat, Medium'
+        collection_name: Beds
+        price_eur: 49
+        image: media/donut_cuddler_bed_oat.webp
+        description: 'A round bed with a high, plump rim to rest a chin on, covered in a long-pile faux fur that dogs and cats curl up in. Non-slip, water-resistant base. 70 cm across, for pets up to 15 kg. The whole bed goes in the washing machine at 30 °C.'
+    -   title: 'Felt Cat Cave — Heather Grey'
+        collection_name: Beds
+        price_eur: 39
+        image: media/felt_cat_cave_heather_grey.webp
+        description: 'A cosy hideout felted by hand from New Zealand wool, warm in winter and cool in summer, with a round opening the cat watches the room from. Squash the top in to make a basket. 40 cm across, comes with a cushion. Brush off the hair; hand wash cold.'
+    -   title: 'Orthopedic Memory Foam Dog Bed, Large'
+        collection_name: Beds
+        price_eur: 89
+        image: media/orthopedic_memory_foam_dog_bed.webp
+        description: 'A 10 cm memory foam mattress with a bolster on three sides, for large and senior dogs whose joints need support. Removable cover in a sturdy cotton twill, zipped and washable at 40 °C, waterproof liner on the foam. 110 × 80 cm, for dogs up to 50 kg.'
+    -   title: 'Oatmeal & Aloe Gentle Pet Shampoo, 250 ml'
+        collection_name: Grooming & Care
+        price_eur: 12.9
+        image: media/oatmeal_aloe_pet_shampoo.webp
+        description: 'A soap-free shampoo with colloidal oat and aloe vera for dogs and cats with sensitive, itchy skin. Fragrance free, pH adapted to animal skin, it rinses off easily and leaves the coat soft. Wet the coat, lather a hazelnut-sized amount, rinse well. Up to once a month.'
+    -   title: 'Shea Paw Balm, 50 ml'
+        collection_name: Grooming & Care
+        price_eur: 11
+        image: media/shea_paw_balm.webp
+        description: 'A balm of shea butter, beeswax and calendula to soothe and protect the pads cracked by salted pavements, hot asphalt or long hikes. Safe if licked, no fragrance. Massage a thin layer into clean, dry pads in the evening. Aluminium tin.'
+    -   title: 'Bamboo Slicker Brush'
+        collection_name: Grooming & Care
+        price_eur: 14.5
+        image: media/bamboo_slicker_brush.webp
+        description: 'A bamboo brush with fine, bent pins capped by soft tips, to remove dead hair and loosen knots in medium and long coats without scratching the skin. A press on the button pushes the hair off the pins. A weekly brush, more during the moult.'
