@@ -1,0 +1,15 @@
+# Culture dataset: the shelves the books, games, instruments and collectibles are sorted by (see products.yaml).
+# Each image is a path relative to the dataset directory: a photo of the shelf, shown on the homepage category tiles.
+collections:
+    -   name: Books
+        image: media/collection_books.webp
+    -   name: Comics & Manga
+        image: media/collection_comics.webp
+    -   name: Board Games
+        image: media/collection_board.webp
+    -   name: Video Games
+        image: media/collection_video.webp
+    -   name: Music Instruments
+        image: media/collection_music.webp
+    -   name: Collectibles
+        image: media/collection_collectibles.webp

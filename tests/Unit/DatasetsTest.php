@@ -35,7 +35,8 @@ final class DatasetsTest extends TestCase
         static::assertNotSame('', trim((string) ($config['name'] ?? '')), 'dataset.yaml has a name.');
         static::assertNotSame('', trim((string) ($config['description'] ?? '')), 'dataset.yaml has a description.');
 
-        $collections = array_column(Yaml::parseFile($path . '/collections.yaml')['collections'] ?? [], 'name');
+        $collectionEntries = Yaml::parseFile($path . '/collections.yaml')['collections'] ?? [];
+        $collections = array_column($collectionEntries, 'name');
         static::assertNotEmpty($collections);
 
         $products = Yaml::parseFile($path . '/products.yaml')['products'] ?? [];
@@ -55,9 +56,21 @@ final class DatasetsTest extends TestCase
             $images[] = $image;
         }
 
+        // A collection image is optional; when set, it ships with the dataset too.
+        foreach ($collectionEntries as $collection) {
+            if (null === ($collection['image'] ?? null)) {
+                continue;
+            }
+
+            $image = (string) $collection['image'];
+            static::assertMatchesRegularExpression('#^media/[a-z0-9_]+\.webp$#', $image, $collection['name'] . ' has a local image.');
+            static::assertFileExists($path . '/' . $image);
+            $images[] = $image;
+        }
+
         $media = array_map(static fn(string $file): string => 'media/' . basename($file), glob($path . '/media/*') ?: []);
         sort($media);
         sort($images);
-        static::assertSame($media, array_values(array_unique($images)), 'Every media file is used by a product.');
+        static::assertSame($media, array_values(array_unique($images)), 'Every media file is used by a product or a collection.');
     }
 }

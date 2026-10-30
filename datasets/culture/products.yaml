@@ -1,0 +1,95 @@
+# Culture dataset: eighteen books, games, instruments and collectibles from a fictional cultural store (see dataset.yaml).
+# Each image is a path relative to the dataset directory, so the import copies it instead of downloading it.
+mode: ai
+name: Culture
+products:
+    -   title: 'The Lighthouse Cartographer — Novel, Hardcover'
+        collection_name: Books
+        price_eur: 22.9
+        image: media/the_lighthouse_cartographer.webp
+        description: 'Our booksellers'' novel of the season: on a windswept island, a young cartographer inherits the lighthouse of an uncle she never met, and the hand-drawn maps of coasts that do not exist. A tender, luminous story about family, memory and the places we invent. 384 pages, clothbound with gold foil, ribbon marker.'
+    -   title: 'Atlas of Imaginary Cities — Illustrated Book'
+        collection_name: Books
+        price_eur: 39
+        image: media/atlas_of_imaginary_cities.webp
+        description: 'Forty cities that exist only on paper, from a floating market town to a library built inside a mountain, each drawn on a full-page spread with its map, its streets and its legends. A large-format book to get lost in, for curious readers of 10 to 110. 160 pages, 25 x 33 cm.'
+    -   title: 'Ember Crown — Ashfall Saga, Book One, Paperback'
+        collection_name: Books
+        price_eur: 12.5
+        image: media/ember_crown_ashfall_book_one.webp
+        description: 'The first book of the Ashfall saga: in a kingdom where the volcanoes choose the queens, a blacksmith''s daughter wakes the last ember dragon. An epic, fast-paced fantasy with a hand-drawn map and a family tree. 512 pages. The board game and the collectible dragon of the saga are on the other shelves.'
+    -   title: 'Neon Koi, Volume 1 — Manga'
+        collection_name: Comics & Manga
+        price_eur: 7.95
+        image: media/neon_koi_volume_one.webp
+        description: 'In a rain-soaked megacity, a delivery girl and a koi spirit that lives in the neon signs race against the corporations to save the last river. Cyberpunk, poetic and funny, read from right to left. 208 pages in black and white, with four colour pages. Volume 2 out next month.'
+    -   title: 'Moonlit Bakery — Graphic Novel'
+        collection_name: Comics & Manga
+        price_eur: 19.9
+        image: media/moonlit_bakery_graphic_novel.webp
+        description: 'A cosy, warm-hearted graphic novel: a bakery that opens only at night, a sleepy fox apprentice and customers who come from the dreams of the town. Soft watercolours, recipes at the end of each chapter. 176 pages, hardcover, from 8 years old.'
+    -   title: 'Starling Squad Omnibus — Comics'
+        collection_name: Comics & Manga
+        price_eur: 45
+        image: media/starling_squad_omnibus.webp
+        description: 'The complete first run of Starling Squad, five teenage heroes with very ordinary problems and one very extraordinary bird, gathered in one heavy omnibus: 24 issues, every variant cover and a sketchbook of the original designs. 640 pages in full colour, hardcover.'
+    -   title: 'Ashfall: Kingdoms of Ember — Strategy Board Game'
+        collection_name: Board Games
+        price_eur: 54.9
+        image: media/ashfall_kingdoms_of_ember.webp
+        description: 'Raise a kingdom on the slopes of the volcanoes of the Ashfall saga: claim lava fields, forge alliances and tame the ember dragon before your rivals. Modular hex board, 80 wooden pieces and a sculpted dragon. 2 to 5 players, from 12 years old, 60 to 90 minutes.'
+    -   title: 'Tiny Harbour — Family Tile Game'
+        collection_name: Board Games
+        price_eur: 29.9
+        image: media/tiny_harbour_tile_game.webp
+        description: 'Build the most charming fishing harbour of the coast, one tile at a time: boats, lighthouses, markets and seagulls that score points together. Learned in five minutes, played again and again. 1 to 4 players, from 7 years old, 30 minutes.'
+    -   title: 'Midnight Alibi — Murder Mystery Party Game'
+        collection_name: Board Games
+        price_eur: 24.9
+        image: media/midnight_alibi_party_game.webp
+        description: 'A dinner party at a 1920s jazz club turns to murder, and everyone at the table is a suspect. Character booklets, invitations, clues to reveal round by round and a solution sealed in an envelope. For 6 to 8 players, from 14 years old, one evening.'
+    -   title: 'Starfall Odyssey — Collector''s Edition'
+        collection_name: Video Games
+        price_eur: 79.99
+        image: media/starfall_odyssey_collectors_edition.webp
+        description: 'The space opera of the year, in a collector''s box: the game for console and PC, a steelbook, the orchestral soundtrack on vinyl, a cloth star map and an art book of 96 pages. Explore a hundred hand-crafted worlds alone or with a friend. PEGI 12.'
+    -   title: 'Pixel Pastures — Farming Adventure Game'
+        collection_name: Video Games
+        price_eur: 29.99
+        image: media/pixel_pastures_farming_game.webp
+        description: 'Leave the city, take over your grandmother''s farm and bring a sleepy valley back to life: crops, animals, fishing, festivals and friendly neighbours. A gentle pixel-art game to play at your own pace, alone or with up to four friends. For console and PC, PEGI 3.'
+    -   title: 'Retro Pocket Handheld Console, 200 Games'
+        collection_name: Video Games
+        price_eur: 69
+        image: media/retro_pocket_handheld_console.webp
+        description: 'A pocket console with a sharp 3.5" screen, a clicky cross pad and 200 original arcade, puzzle and platform games built in, with save states. Eight hours of play on a USB-C charge, a TV output and a second controller port. Comes with a lanyard and a soft case.'
+    -   title: 'Parlour Acoustic Guitar — Solid Spruce Top'
+        collection_name: Music Instruments
+        price_eur: 249
+        image: media/parlour_acoustic_guitar.webp
+        description: 'A small-bodied guitar with a big, warm voice: solid spruce top, mahogany back and sides, rosewood fingerboard and a satin finish. Comfortable on the sofa, on the road and for smaller hands. Set up in our workshop before shipping, with a padded gig bag.'
+    -   title: 'Concert Ukulele — Mahogany, with Gig Bag'
+        collection_name: Music Instruments
+        price_eur: 79
+        image: media/concert_ukulele_mahogany.webp
+        description: 'A concert-size ukulele in mahogany, with a bright, singing tone and a slightly longer neck that is easy to play. Aquila strings, geared tuners and a cream binding. Comes with a gig bag, a clip-on tuner and a chord chart to play your first song tonight.'
+    -   title: 'Mini Synth — 25-Key Analog Synthesizer'
+        collection_name: Music Instruments
+        price_eur: 149
+        image: media/mini_synth_analog_25_keys.webp
+        description: 'A true analog synthesizer that fits in a backpack: two oscillators, a warm filter, a 16-step sequencer and 25 velocity-sensitive mini keys. Built-in speaker, headphone and MIDI outputs, runs on batteries or USB. Wooden end cheeks, 64 presets to start from.'
+    -   title: 'Ember Dragon — Ashfall Collectible Figure'
+        collection_name: Collectibles
+        price_eur: 49
+        image: media/ember_dragon_collectible_figure.webp
+        description: 'The ember dragon of the Ashfall saga, sculpted in resin and painted by hand, wings open on a volcanic rock base. 22 cm high, numbered limited edition of 2,000, with a certificate signed by the illustrator of the books. In a window box.'
+    -   title: 'Neon Koi Enamel Pin Set'
+        collection_name: Collectibles
+        price_eur: 14.9
+        image: media/neon_koi_enamel_pin_set.webp
+        description: 'Four hard enamel pins from the Neon Koi manga: the koi spirit, the delivery scooter, a rainy street sign and an umbrella, with glow-in-the-dark details. Gold-plated metal, double clutch backs, on an illustrated backing card.'
+    -   title: 'Starfall Odyssey Art Print — Signed, A3'
+        collection_name: Collectibles
+        price_eur: 35
+        image: media/starfall_odyssey_art_print.webp
+        description: 'The key art of Starfall Odyssey, a ship crossing a ringed planet at dawn, printed in giclée on 310 g cotton paper and signed by the art director. A3 (29.7 x 42 cm), numbered edition of 500, shipped flat in a rigid sleeve.'
