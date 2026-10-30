@@ -1,0 +1,14 @@
+# Depot dataset: the aisles the trade supplies are sorted by (see products.yaml), each with a photo of what it holds.
+collections:
+    -   name: Office Supplies
+        image: media/aisle_office.webp
+    -   name: Packaging & Shipping
+        image: media/aisle_packaging.webp
+    -   name: Industrial Equipment
+        image: media/aisle_industrial.webp
+    -   name: Catering Equipment
+        image: media/aisle_catering.webp
+    -   name: Cleaning & Hygiene
+        image: media/aisle_cleaning.webp
+    -   name: Workwear & Safety
+        image: media/aisle_safety.webp

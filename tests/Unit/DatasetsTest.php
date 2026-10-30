@@ -38,10 +38,22 @@ final class DatasetsTest extends TestCase
         $collectionEntries = Yaml::parseFile($path . '/collections.yaml')['collections'] ?? [];
         $collections = array_column($collectionEntries, 'name');
         static::assertNotEmpty($collections);
+        $images = [];
+
+        // A collection image is optional, local when given.
+        foreach ($collectionEntries as $collection) {
+            if (!isset($collection['image'])) {
+                continue;
+            }
+
+            $image = (string) $collection['image'];
+            static::assertMatchesRegularExpression('#^media/[a-z0-9_]+\.webp$#', $image, $collection['name'] . ' has a local image.');
+            static::assertFileExists($path . '/' . $image);
+            $images[] = $image;
+        }
 
         $products = Yaml::parseFile($path . '/products.yaml')['products'] ?? [];
         static::assertNotEmpty($products);
-        $images = [];
 
         foreach ($products as $product) {
             $title = (string) ($product['title'] ?? '');

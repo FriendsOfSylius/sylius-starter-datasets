@@ -9,6 +9,7 @@ demo shop is created from it without any AI call or download.
 | `bloom`        | Eighteen beauty products and tools, on six shelves            | Bloom           |
 | `cellar`       | Seventeen wines from fictional estates, in seven regions      | Cellar          |
 | `culture`      | Eighteen books, games, instruments and collectibles           | Culture         |
+| `depot`        | Eighteen trade supplies and equipment, in six aisles          | Depot           |
 | `groove`       | Sixteen fictional vinyl records, in six genres                | Groove          |
 | `home`         | Eighteen pieces of furniture, lighting, linen and tableware   | Hearth          |
 | `outdoor`      | Eighteen pieces of hiking, climbing and camping gear          | Summit          |

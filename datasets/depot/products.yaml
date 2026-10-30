@@ -1,0 +1,96 @@
+# Depot dataset: eighteen trade supplies from a fictional business supplier (see dataset.yaml).
+# Prices are per pack, excluding VAT; each description gives the pack size, a reference and the quantity price breaks.
+# Each image is a path relative to the dataset directory, so the import copies it instead of downloading it.
+mode: ai
+name: Depot
+products:
+    -   title: 'Recycled Copy Paper A4 80 g, box of 5 reams'
+        collection_name: Office Supplies
+        price_eur: 24.9
+        image: media/recycled_copy_paper_a4.webp
+        description: 'Our bestseller: 2,500 sheets of 100 % recycled, FSC-certified white paper, 80 g/m², jam-free in every laser printer and copier. Ref. DP-1010. Price breaks: €22.50 a box from 10 boxes, €19.90 from 40 boxes (a full pallet layer). Ordered before 4 pm, delivered the next working day.'
+    -   title: 'Gel Ink Pens, blue, box of 50'
+        collection_name: Office Supplies
+        price_eur: 29
+        image: media/gel_ink_pens_blue.webp
+        description: 'Retractable 0.7 mm gel pens with a rubber grip and a smooth, quick-drying blue ink that writes 1,200 metres. Ref. DP-1124. Price breaks: €26 a box from 5 boxes, €22 from 20 boxes. Black and red boxes on request.'
+    -   title: 'Lever Arch Files A4, 80 mm, pack of 10'
+        collection_name: Office Supplies
+        price_eur: 27.5
+        image: media/lever_arch_files_a4.webp
+        description: 'Board files covered in polypropylene, with a nickel lever mechanism, a thumb hole and an exchangeable spine label; each holds 600 sheets. Ref. DP-1203. Assorted colours. Price breaks: €24.50 a pack from 10 packs, €21 from 30 packs.'
+    -   title: 'Double-Wall Cardboard Boxes 40 × 30 × 30 cm, pack of 25'
+        collection_name: Packaging & Shipping
+        price_eur: 42
+        image: media/double_wall_cardboard_boxes.webp
+        description: 'Brown double-wall corrugated boxes with American flaps, strong enough for 30 kg and made of 85 % recycled fibre. Delivered flat. Ref. DP-2040. Price breaks: €37 a pack from 8 packs, €31 from 40 packs (a full pallet). Custom printing quoted from 500 boxes.'
+    -   title: 'Packing Tape 48 mm × 66 m, pack of 36'
+        collection_name: Packaging & Shipping
+        price_eur: 54
+        image: media/packing_tape_48mm.webp
+        description: 'Low-noise brown polypropylene tape with a solvent-free acrylic adhesive that holds on recycled cardboard, from −10 °C to +60 °C. Ref. DP-2115. Price breaks: €48 a pack from 5 packs, €42 from 20 packs. Fits every standard tape gun.'
+    -   title: 'Kraft Paper Void Fill Roll, 50 cm × 300 m'
+        collection_name: Packaging & Shipping
+        price_eur: 38
+        image: media/kraft_paper_void_fill_roll.webp
+        description: 'A 70 g/m² brown kraft roll to wrap, cushion and wedge parcels, 100 % recyclable, plastic-free and kerbside compostable. Ref. DP-2230. Price breaks: €34 a roll from 6 rolls, €29 from 24 rolls. Fits our wall-mounted dispenser.'
+    -   title: 'Steel Shelving Unit, 5 levels, 180 × 90 × 45 cm'
+        collection_name: Industrial Equipment
+        price_eur: 129
+        image: media/steel_shelving_unit.webp
+        description: 'Boltless galvanised steel shelving that assembles in ten minutes with a mallet: five adjustable levels of 175 kg each, 875 kg in all. Ref. DP-3105. Price breaks: €115 a unit from 5 units, €99 from 20 units. Delivered on a pallet with a tail lift.'
+    -   title: 'Hand Pallet Truck, 2,500 kg'
+        collection_name: Industrial Equipment
+        price_eur: 349
+        image: media/hand_pallet_truck.webp
+        description: 'A manual pallet jack with 1,150 mm forks, polyurethane wheels and a quick-lift pump that raises the load in three strokes. Two-year parts and labour warranty. Ref. DP-3220. Price breaks: €325 from 3 trucks, €299 from 10 trucks. Delivered assembled.'
+    -   title: 'Cordless Impact Drill 18 V, two batteries'
+        collection_name: Industrial Equipment
+        price_eur: 189
+        image: media/cordless_impact_drill_18v.webp
+        description: 'A brushless hammer drill of 60 Nm with two 4 Ah batteries, a 45-minute charger and a reinforced case. Drills steel, wood and masonry. Ref. DP-3318. Price breaks: €172 from 4 drills, €155 from 12 drills. Batteries shared with the whole 18 V range.'
+    -   title: 'Stainless Steel Gastronorm Pans GN 1/1, 65 mm, pack of 6'
+        collection_name: Catering Equipment
+        price_eur: 84
+        image: media/gastronorm_pans_gn11.webp
+        description: '18/10 stainless steel pans, 530 × 325 mm and 65 mm deep, stackable, from the freezer to the oven at 300 °C and dishwasher-safe. Ref. DP-4012. Price breaks: €76 a pack from 4 packs, €68 from 12 packs. Lids sold apart.'
+    -   title: 'Countertop Convection Oven, 4 trays GN 2/3'
+        collection_name: Catering Equipment
+        price_eur: 649
+        image: media/countertop_convection_oven.webp
+        description: 'A 3.2 kW fan oven with a stainless steel chamber, a steam injector and a double-glazed door, from 50 °C to 270 °C. For snack bars, bakeries and canteens. Ref. DP-4108. Price breaks: €615 from 2 ovens, €579 from 5 ovens. Single-phase 230 V.'
+    -   title: 'Colour-Coded Cutting Boards, set of 6'
+        collection_name: Catering Equipment
+        price_eur: 74
+        image: media/colour_coded_cutting_boards.webp
+        description: 'Six HACCP boards in polyethylene, 450 × 300 × 12 mm: red for raw meat, blue for fish, yellow for poultry, green for vegetables, brown for cooked meat and white for dairy, with a stainless steel rack. Ref. DP-4215. Price breaks: €67 a set from 4 sets, €59 from 10 sets.'
+    -   title: 'Nitrile Gloves, powder-free, box of 100'
+        collection_name: Cleaning & Hygiene
+        price_eur: 8.9
+        image: media/nitrile_gloves_box.webp
+        description: 'Blue nitrile examination gloves, latex-free and powder-free, approved for food contact, sizes S to XL. Ref. DP-5011. Price breaks: €7.90 a box from 10 boxes (a carton), €6.40 from 100 boxes. Our most re-ordered consumable.'
+    -   title: 'Centrefeed Paper Rolls, 2-ply, pack of 6'
+        collection_name: Cleaning & Hygiene
+        price_eur: 26
+        image: media/centrefeed_paper_rolls.webp
+        description: 'Six rolls of 450 sheets of white, 2-ply recycled wiping paper, Ecolabel certified, for kitchens, workshops and washrooms. Ref. DP-5120. Price breaks: €23 a pack from 10 packs, €19.50 from 48 packs (a full pallet). Fits every centrefeed dispenser.'
+    -   title: 'Multi-Surface Cleaner Concentrate, 5 L'
+        collection_name: Cleaning & Hygiene
+        price_eur: 19.5
+        image: media/multi_surface_cleaner_5l.webp
+        description: 'A neutral, low-foam degreaser that cleans floors, worktops and windows. Dilute at 1 % for 500 litres of ready-to-use solution; Ecolabel, fresh mint scent. Ref. DP-5236. Price breaks: €17.50 a can from 4 cans, €14.90 from 20 cans. Dosing pump sold apart.'
+    -   title: 'Safety Boots S3, black'
+        collection_name: Workwear & Safety
+        price_eur: 64
+        image: media/safety_boots_s3.webp
+        description: 'Leather ankle boots with a composite toe cap, an anti-perforation midsole and a slip-resistant SRC sole, metal-free and light. Sizes 36 to 48. Ref. DP-6104. Price breaks: €58 a pair from 10 pairs, €51 from 50 pairs, sizes mixed as you wish.'
+    -   title: 'High-Visibility Vests EN ISO 20471, pack of 10'
+        collection_name: Workwear & Safety
+        price_eur: 35
+        image: media/high_visibility_vests.webp
+        description: 'Fluorescent yellow mesh vests with two reflective bands and a hook-and-loop front, class 2, one size fits most. Ref. DP-6210. Price breaks: €31 a pack from 5 packs, €26 from 20 packs. Logo printing quoted from 50 vests.'
+    -   title: 'First Aid Kit for 20 People, wall-mounted'
+        collection_name: Workwear & Safety
+        price_eur: 49
+        image: media/first_aid_kit_20_people.webp
+        description: 'A green ABS case with a wall bracket, holding 95 items to the workplace standard for up to 20 people: dressings, compresses, scissors, foil blanket and an eye wash. Ref. DP-6322. Price breaks: €44 from 5 kits, €39 from 15 kits. Refill packs available.'
