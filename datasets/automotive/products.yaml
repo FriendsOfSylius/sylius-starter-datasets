@@ -1,0 +1,96 @@
+# Automotive dataset: eighteen car parts, tyres, accessories, tools and workshop equipment from a fictional parts house (see dataset.yaml).
+# The part reference ends each title, after a dash: the Torque theme prints it under the name on the product cards.
+# Each image is a path relative to the dataset directory, so the import copies it instead of downloading it.
+mode: ai
+name: Automotive
+products:
+    -   title: 'Vented Brake Discs Ø 288 mm, Front Pair — TQ-BD288V'
+        collection_name: Brakes & Suspension
+        price_eur: 74.9
+        image: media/vented_brake_discs_288.webp
+        description: 'A pair of internally vented front discs in high-carbon cast iron, Ø 288 mm, 25 mm thick (21.8 mm minimum), 5 × 112 bolt pattern. Grey anti-corrosion coating on the hat and vanes, balanced and ready to fit without degreasing. For compact hatchbacks and saloons with a 15-inch brake. ECE R90 approved. Replace the pads at the same time.'
+    -   title: 'Ceramic Brake Pads, Front Axle Set — TQ-BP4021C'
+        collection_name: Brakes & Suspension
+        price_eur: 39.9
+        image: media/ceramic_brake_pads_front.webp
+        description: 'Four low-dust ceramic pads for the front axle, 155.1 × 63.9 × 19.5 mm, with chamfered edges, a multi-layer anti-noise shim and an integrated wear sensor. Quiet, consistent bite from cold, gentle on the discs. ECE R90 approved. Fits the 288 mm discs TQ-BD288V. Trade packs of 10 sets on request.'
+    -   title: 'Twin-Tube Gas Shock Absorbers, Front Pair — TQ-SA3350G'
+        collection_name: Brakes & Suspension
+        price_eur: 129
+        image: media/gas_shock_absorbers_front.webp
+        description: 'A pair of front MacPherson struts with nitrogen-charged twin-tube damping, OE-matched valving and a 50 mm chromed piston rod. Restores grip, braking distance and a quiet ride after 80,000 km. Supplied with top mount bump stops and dust covers. Always replace both sides of an axle.'
+    -   title: 'Fully Synthetic Engine Oil 5W-30, 5 L — TQ-OIL530'
+        collection_name: Engine & Electrics
+        price_eur: 42.9
+        image: media/synthetic_engine_oil_5w30.webp
+        description: 'A low-ash, fully synthetic 5W-30 for modern petrol and diesel engines with a particulate filter. ACEA C3, API SP, long-life service intervals up to 30,000 km. Protects from the first cold start and keeps the turbo clean. 5-litre can with a pour spout and a level window. Also sold in 20 L and 208 L drums for workshops.'
+    -   title: 'Filter Service Kit: Oil, Air and Cabin — TQ-FK210'
+        collection_name: Engine & Electrics
+        price_eur: 36.5
+        image: media/filter_service_kit.webp
+        description: 'Everything for the yearly service in one box: a spin-on oil filter (M20 × 1.5, anti-drain valve), a panel air filter (245 × 180 × 58 mm) and an activated-carbon cabin filter that stops pollen and odours. OE quality, with the drain plug washer. Fits most 1.4 to 2.0 L four-cylinder engines; check your vehicle by its registration.'
+    -   title: 'AGM Start-Stop Battery 12 V 70 Ah 760 A — TQ-AGM70'
+        collection_name: Engine & Electrics
+        price_eur: 169
+        image: media/agm_start_stop_battery.webp
+        description: 'An absorbent glass mat battery for cars with start-stop and energy recovery: 12 V, 70 Ah, 760 A cold cranking (EN), three times the cycle life of a flooded battery. L3 case, 278 × 175 × 190 mm, positive terminal on the right. Sealed and maintenance free. Bring back the old one: we recycle it for free.'
+    -   title: 'All-Season Tyre 205/55 R16 91V — TQ-AS205'
+        collection_name: Tyres & Wheels
+        price_eur: 89.9
+        image: media/all_season_tyre_205_55_r16.webp
+        description: 'One tyre for the whole year: a directional V-shaped tread with sipes that bite on snow and slush, and a silica compound that stays supple from −20 to +35 °C. 3PMSF snow marking, EU label B / B / 70 dB. Load index 91 (615 kg), speed rating V (240 km/h). Fitting and balancing in our partner garages.'
+    -   title: 'Summer Performance Tyre 225/45 R17 94Y XL — TQ-SP225'
+        collection_name: Tyres & Wheels
+        price_eur: 112
+        image: media/summer_performance_tyre_225_45_r17.webp
+        description: 'A sporty asymmetric summer tyre with a stiff outer shoulder for precise steering and four wide grooves that clear water at speed. Reinforced XL carcass, load index 94 (670 kg), speed rating Y (300 km/h). EU label A / A / 71 dB. Rim protector rib against kerb scuffs.'
+    -   title: 'Alloy Wheel 7.5 × 17" 5 × 112 ET45, Gunmetal — TQ-AW1745'
+        collection_name: Tyres & Wheels
+        price_eur: 149
+        image: media/alloy_wheel_17_gunmetal.webp
+        description: 'A flow-formed, ten-spoke alloy wheel in matt gunmetal with a diamond-cut lip: 7.5 J × 17, 5 × 112 PCD, offset 45 mm, centre bore 57.1 mm, 9.2 kg. TÜV approved, max load 690 kg. Takes the 225/45 R17 tyre. Sold by the unit; wheel bolts and TPMS valves sold apart.'
+    -   title: 'Aerodynamic Roof Box 420 L, Matt Black — TQ-RX420'
+        collection_name: Car Accessories
+        price_eur: 349
+        image: media/aerodynamic_roof_box_420.webp
+        description: 'A long, low roof box in matt black ABS: 420 litres, 205 × 84 × 40 cm, room for five pairs of skis or the luggage of a family of four. Opens from both sides, central lock with two keys, quick-grip mounting on every roof bar in a few minutes. 75 kg maximum load, TÜV and City Crash tested.'
+    -   title: 'All-Weather Rubber Floor Mats, Set of 4 — TQ-FM4'
+        collection_name: Car Accessories
+        price_eur: 44.9
+        image: media/rubber_floor_mats.webp
+        description: 'Deep-tray floor mats in odourless, flexible rubber with 12 mm raised edges that keep mud, snow and water off the carpet. Trim-to-fit grid for most cars, anti-slip studs underneath and a heel pad for the driver. Rinse with water. Two front and two rear mats.'
+    -   title: 'Dash Cam 1440p with GPS and Parking Mode — TQ-DC1440'
+        collection_name: Car Accessories
+        price_eur: 89
+        image: media/dash_cam_1440p.webp
+        description: 'A discreet windscreen camera filming in 2560 × 1440 at 30 fps with a 140° wide-angle lens and night vision. GPS logs speed and position, the G-sensor locks the file on impact, and parking mode watches the car when it is stopped. Wi-Fi app, 64 GB card and 12 V adapter included.'
+    -   title: 'Socket Set 1/4" and 1/2", 94 Pieces — TQ-SS94'
+        collection_name: Hand Tools
+        price_eur: 129
+        image: media/socket_set_94_pieces.webp
+        description: 'A chrome-vanadium set in a blow-moulded case: 6-point sockets from 4 to 32 mm (standard and deep), two 72-tooth reversible ratchets, extensions, a universal joint, spark plug sockets, hex, Torx and Ribe bits. Laser-etched sizes, satin chrome finish. Lifetime warranty on every piece.'
+    -   title: 'Torque Wrench 1/2", 40–210 N·m — TQ-TW210'
+        collection_name: Hand Tools
+        price_eur: 79.9
+        image: media/torque_wrench_210.webp
+        description: 'A click-type torque wrench for wheel nuts, cylinder heads and suspension bolts: 40 to 210 N·m (30 to 155 ft·lb), ± 4 % accuracy in both directions, double scale and a lockable handle. Factory calibrated, with its ISO 6789 certificate and a storage case. Recalibration service available.'
+    -   title: 'Ratcheting Combination Spanners 8–19 mm, 12 Pieces — TQ-RS12'
+        collection_name: Hand Tools
+        price_eur: 54.9
+        image: media/ratcheting_combination_spanners.webp
+        description: 'Twelve ratcheting combination spanners from 8 to 19 mm, with a fine 72-tooth ring end that turns in a 5° arc and an open end angled at 15°. Chrome-vanadium steel, mirror-polished heads, in a roll-up canvas pouch. DIN 3113 compliant, lifetime warranty.'
+    -   title: 'Low-Profile Trolley Jack 3 t — TQ-TJ3000'
+        collection_name: Workshop Equipment
+        price_eur: 189
+        image: media/low_profile_trolley_jack.webp
+        description: 'A professional hydraulic trolley jack that slides under lowered cars: 3,000 kg capacity, 85 mm minimum to 500 mm maximum height, dual pump pistons for a fast lift and a safety overload valve. Steel frame on four swivel castors, rubber saddle pad. EN 1494 certified. Free delivery to workshops.'
+    -   title: 'OBD-II Diagnostic Scanner, Pro Edition — TQ-OBD9'
+        collection_name: Workshop Equipment
+        price_eur: 249
+        image: media/obd2_diagnostic_scanner.webp
+        description: 'A rugged 7-inch touchscreen scanner that reads and clears fault codes on every system (engine, ABS, airbag, gearbox), shows live data and runs service resets: oil, brake pad, battery registration, DPF regeneration. Covers European, Asian and American cars from 1996. Three years of free updates.'
+    -   title: 'Air Compressor 50 L, 10 bar, Oil-Free — TQ-AC50'
+        collection_name: Workshop Equipment
+        price_eur: 329
+        image: media/air_compressor_50l.webp
+        description: 'A quiet oil-free workshop compressor for impact wrenches, tyre inflation and spray guns: 50-litre tank, 10 bar maximum, 220 L/min intake, 1.5 kW motor at 68 dB. Two quick couplers, a pressure regulator with gauges, wheels and a handle. 230 V, maintenance free.'

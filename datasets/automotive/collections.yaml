@@ -1,0 +1,15 @@
+# Automotive dataset: the departments the parts and equipment are sorted by (see products.yaml), each with a photo of
+# what it holds.
+collections:
+    -   name: Brakes & Suspension
+        image: media/aisle_brakes.webp
+    -   name: Engine & Electrics
+        image: media/aisle_engine.webp
+    -   name: Tyres & Wheels
+        image: media/aisle_tyres.webp
+    -   name: Car Accessories
+        image: media/aisle_accessories.webp
+    -   name: Hand Tools
+        image: media/aisle_tools.webp
+    -   name: Workshop Equipment
+        image: media/aisle_workshop.webp

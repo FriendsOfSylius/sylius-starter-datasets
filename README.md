@@ -6,6 +6,7 @@ demo shop is created from it without any AI call or download.
 
 | Dataset        | Catalog                                                       | Suggested theme |
 |----------------|---------------------------------------------------------------|-----------------|
+| `automotive`   | Eighteen car parts, tyres, tools and workshop equipment       | Torque          |
 | `bloom`        | Eighteen beauty products and tools, on six shelves            | Bloom           |
 | `cellar`       | Seventeen wines from fictional estates, in seven regions      | Cellar          |
 | `culture`      | Eighteen books, games, instruments and collectibles           | Culture         |
